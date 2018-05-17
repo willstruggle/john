@@ -12,6 +12,7 @@ Binary ini sengaja saya recompile karena john the ripper bawaan dari backbox 5 s
 7. ```ln -s /usr/local/lib/librexgen.so.2.0.8 /usr/local/lib/librexgen.so.2.0```
 8. ```ln -s /usr/local/lib/librexgen.so.2.0.8 /usr/local/lib/librexgen.so```
 9. ```echo "export PATH=/opt/john:$PATH" >> ~/.profile```
-10. ```ldconfig```
+10. ```export PATH=/opt/john:$PATH```
+11. ```ldconfig```
 
 Untuk informasi lebih lanjut bisa kunjungi di githubnya langsung https://github.com/magnumripper/JohnTheRipper
