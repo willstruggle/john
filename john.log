@@ -1,0 +1,2137 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Command line: ../run/john /home/koboi/tools/Responder/logs/HTTP-NTLMv2-5.5.5.13.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: netntlmv2, NTLMv2 C/R (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: MD4 HMAC-MD5 32/64
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 12288
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - SingleWordsPairMax used is 6
+0:00:00:00 - SingleRetestGuessed = true
+0:00:00:00 - 1129 preprocessed word mangling rules
+0:00:00:00 - Allocated 1 buffer of 8 candidate passwords
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - Rule #2: '-s x**' rejected
+0:00:00:00 - Rule #3: '-c (?a c Q' accepted as '(?acQ'
+0:00:00:00 - Rule #4: '-c l Q' accepted as 'lQ'
+0:00:00:00 - Oldest still in use is now rule #3
+0:00:00:00 - Rule #5: '-s-c x** /?u l' rejected
+0:00:00:00 - Rule #6: '-<6 >6 '6' accepted as '>6'6'
+0:00:00:00 - Oldest still in use is now rule #4
+0:00:00:00 - Rule #7: '-<7 >7 '7 l' accepted as '>7'7l'
+0:00:00:00 - Oldest still in use is now rule #6
+0:00:00:00 - Rule #8: '-<6 -c >6 '6 /?u l' accepted as '>6'6/?ul'
+0:00:00:00 - Oldest still in use is now rule #7
+0:00:00:00 - Rule #9: '-<5 >5 '5' accepted as '>5'5'
+0:00:00:00 - Oldest still in use is now rule #8
+0:00:00:00 - Rule #10: '/?d @?d >4' accepted as '/?d@?d>4'
+0:00:00:00 - Oldest still in use is now rule #9
+0:00:00:00 - Rule #11: '/?d @?d M @?A Q >4' accepted as '/?d@?dM@?AQ>4'
+0:00:00:00 - Rule #12: '/?d @?d >4 M l Q' accepted as '/?d@?d>4MlQ'
+0:00:00:00 - Rule #13: '/?d @?d >4 M c Q' accepted as '/?d@?d>4McQ'
+0:00:00:00 - Oldest still in use is now rule #12
+0:00:00:00 - Rule #14: '/?d @?d M @?A Q >4 M l Q' accepted as '/?d@?dM@?AQ>4MlQ'
+0:00:00:00 - Oldest still in use is now rule #13
+0:00:00:00 - Rule #15: '/?d @?d M @?A Q >4 M c Q' accepted as '/?d@?dM@?AQ>4McQ'
+0:00:00:00 - Rule #16: '@?D Q >4' accepted as '@?DQ>4'
+0:00:00:00 - Rule #17: '/?d @?d >3 <* $0 Q' accepted as '/?d@?d>3<*$0Q'
+0:00:00:00 - Rule #18: '/?d @?d >3 <* $1 Q' accepted as '/?d@?d>3<*$1Q'
+0:00:00:00 - Rule #19: '/?d @?d >3 <* $2 Q' accepted as '/?d@?d>3<*$2Q'
+0:00:00:00 - Oldest still in use is now rule #18
+0:00:00:00 - Rule #20: '/?d @?d >3 <* $3 Q' accepted as '/?d@?d>3<*$3Q'
+0:00:00:00 - Oldest still in use is now rule #19
+0:00:00:00 - Rule #21: '/?d @?d >3 <* $4 Q' accepted as '/?d@?d>3<*$4Q'
+0:00:00:00 - Rule #22: '/?d @?d >3 <* $5 Q' accepted as '/?d@?d>3<*$5Q'
+0:00:00:00 - Oldest still in use is now rule #21
+0:00:00:00 - Rule #23: '/?d @?d >3 <* $6 Q' accepted as '/?d@?d>3<*$6Q'
+0:00:00:00 - Rule #24: '/?d @?d >3 <* $7 Q' accepted as '/?d@?d>3<*$7Q'
+0:00:00:00 - Oldest still in use is now rule #23
+0:00:00:00 - Rule #25: '/?d @?d >3 <* $8 Q' accepted as '/?d@?d>3<*$8Q'
+0:00:00:00 - Oldest still in use is now rule #24
+0:00:00:00 - Rule #26: '/?d @?d >3 <* $9 Q' accepted as '/?d@?d>3<*$9Q'
+0:00:00:00 - Rule #27: '/?d @?d M >3 <* l Q $0 Q' accepted as '/?d@?dM>3<*lQ$0Q'
+0:00:00:00 - Oldest still in use is now rule #26
+0:00:00:00 - Rule #28: '/?d @?d M >3 <* l Q $1 Q' accepted as '/?d@?dM>3<*lQ$1Q'
+0:00:00:00 - Oldest still in use is now rule #27
+0:00:00:00 - Rule #29: '/?d @?d M >3 <* l Q $2 Q' accepted as '/?d@?dM>3<*lQ$2Q'
+0:00:00:00 - Rule #30: '/?d @?d M >3 <* l Q $3 Q' accepted as '/?d@?dM>3<*lQ$3Q'
+0:00:00:00 - Oldest still in use is now rule #29
+0:00:00:00 - Rule #31: '/?d @?d M >3 <* l Q $4 Q' accepted as '/?d@?dM>3<*lQ$4Q'
+0:00:00:00 - Rule #32: '/?d @?d M >3 <* l Q $5 Q' accepted as '/?d@?dM>3<*lQ$5Q'
+0:00:00:00 - Oldest still in use is now rule #31
+0:00:00:00 - Rule #33: '/?d @?d M >3 <* l Q $6 Q' accepted as '/?d@?dM>3<*lQ$6Q'
+0:00:00:00 - Oldest still in use is now rule #32
+0:00:00:00 - Rule #34: '/?d @?d M >3 <* l Q $7 Q' accepted as '/?d@?dM>3<*lQ$7Q'
+0:00:00:00 - Rule #35: '/?d @?d M >3 <* l Q $8 Q' accepted as '/?d@?dM>3<*lQ$8Q'
+0:00:00:00 - Oldest still in use is now rule #34
+0:00:00:00 - Rule #36: '/?d @?d M >3 <* l Q $9 Q' accepted as '/?d@?dM>3<*lQ$9Q'
+0:00:00:00 - Oldest still in use is now rule #35
+0:00:00:00 - Rule #37: '/?d @?d M >3 <* c Q $0 Q' accepted as '/?d@?dM>3<*cQ$0Q'
+0:00:00:00 - Rule #38: '/?d @?d M >3 <* c Q $1 Q' accepted as '/?d@?dM>3<*cQ$1Q'
+0:00:00:00 - Oldest still in use is now rule #37
+0:00:00:00 - Rule #39: '/?d @?d M >3 <* c Q $2 Q' accepted as '/?d@?dM>3<*cQ$2Q'
+0:00:00:00 - Rule #40: '/?d @?d M >3 <* c Q $3 Q' accepted as '/?d@?dM>3<*cQ$3Q'
+0:00:00:00 - Oldest still in use is now rule #39
+0:00:00:00 - Rule #41: '/?d @?d M >3 <* c Q $4 Q' accepted as '/?d@?dM>3<*cQ$4Q'
+0:00:00:00 - Oldest still in use is now rule #40
+0:00:00:00 - Rule #42: '/?d @?d M >3 <* c Q $5 Q' accepted as '/?d@?dM>3<*cQ$5Q'
+0:00:00:00 - Rule #43: '/?d @?d M >3 <* c Q $6 Q' accepted as '/?d@?dM>3<*cQ$6Q'
+0:00:00:00 - Oldest still in use is now rule #42
+0:00:00:00 - Rule #44: '/?d @?d M >3 <* c Q $7 Q' accepted as '/?d@?dM>3<*cQ$7Q'
+0:00:00:00 - Oldest still in use is now rule #43
+0:00:00:00 - Rule #45: '/?d @?d M >3 <* c Q $8 Q' accepted as '/?d@?dM>3<*cQ$8Q'
+0:00:00:00 - Rule #46: '/?d @?d M >3 <* c Q $9 Q' accepted as '/?d@?dM>3<*cQ$9Q'
+0:00:00:00 - Oldest still in use is now rule #45
+0:00:00:00 - Rule #47: '/?d @?d >3 <- Az"12" Q' accepted as '/?d@?d>3<-Az"12"Q'
+0:00:00:00 - Rule #48: '/?d @?d M >3 <- l Q Az"12"' accepted as '/?d@?dM>3<-lQAz"12"'
+0:00:00:00 - Oldest still in use is now rule #47
+0:00:00:00 - Rule #49: '/?d @?d M >3 <- c Q Az"12"' accepted as '/?d@?dM>3<-cQAz"12"'
+0:00:00:00 - Oldest still in use is now rule #48
+0:00:00:00 - Rule #50: '/?d @?d >3 Az"123" Q <+' accepted as '/?d@?d>3Az"123"Q<+'
+0:00:00:00 - Rule #51: '/?d @?d M >3 l Q Az"123" <+' accepted as '/?d@?dM>3lQAz"123"<+'
+0:00:00:00 - Oldest still in use is now rule #50
+0:00:00:00 - Rule #52: '/?d @?d M >3 c Q Az"123" <+' accepted as '/?d@?dM>3cQAz"123"<+'
+0:00:00:00 - Oldest still in use is now rule #51
+0:00:00:00 - Rule #53: '/?d @?d >2 d Q <+' accepted as '/?d@?d>2dQ<+'
+0:00:00:00 - Rule #54: '/?d @?d >2 M l Q d<+' accepted as '/?d@?d>2MlQd<+'
+0:00:00:00 - Oldest still in use is now rule #53
+0:00:00:00 - Rule #55: '/?d @?d >2 M c Q d<+' accepted as '/?d@?d>2McQd<+'
+0:00:00:00 - Rule #56: '(?a )?d /?d 'p Xpz0' accepted as '(?a)?d/?d'pXpz0'
+0:00:00:00 - Oldest still in use is now rule #55
+0:00:00:00 - Rule #57: ')?a (?d /?a 'p Xpz0' accepted as ')?a(?d/?a'pXpz0'
+0:00:00:00 - Rule #58: '<* d' accepted as '<*d'
+0:00:00:00 - Rule #59: 'r c' accepted as 'rc'
+0:00:00:00 - Oldest still in use is now rule #58
+0:00:00:00 - Rule #60: '-c <* (?a d c' accepted as '<*(?adc'
+0:00:00:00 - Oldest still in use is now rule #59
+0:00:00:00 - Rule #61: '-<5 -c >5 '5 /?u l' accepted as '>5'5/?ul'
+0:00:00:00 - Oldest still in use is now rule #60
+0:00:00:00 - Rule #62: '-c u Q' accepted as 'uQ'
+0:00:00:00 - Oldest still in use is now rule #61
+0:00:00:00 - Rule #63: '-c )?a r l' accepted as ')?arl'
+0:00:00:00 - Oldest still in use is now rule #62
+0:00:00:00 - Rule #64: '-: <* !?A l p' accepted as '<*!?Alp'
+0:00:00:00 - Oldest still in use is now rule #63
+0:00:00:00 - Rule #65: '-c <* !?A c p' accepted as '<*!?Acp'
+0:00:00:00 - Oldest still in use is now rule #64
+0:00:00:00 - Rule #66: '-c <* c Q d' accepted as '<*cQd'
+0:00:00:00 - Oldest still in use is now rule #65
+0:00:00:00 - Rule #67: '-<7 -c >7 '7 /?u' accepted as '>7'7/?u'
+0:00:00:00 - Oldest still in use is now rule #66
+0:00:00:00 - Rule #68: '-<4 >4 '4 l' accepted as '>4'4l'
+0:00:00:00 - Oldest still in use is now rule #67
+0:00:00:00 - Rule #69: '-c <+ (?l c r' accepted as '<+(?lcr'
+0:00:00:00 - Rule #70: '-c <+ )?l l Tm' accepted as '<+)?llTm'
+0:00:00:00 - Rule #71: '-<3 >3 '3' accepted as '>3'3'
+0:00:00:00 - Oldest still in use is now rule #70
+0:00:00:00 - Rule #72: '-<4 -c >4 '4 /?u' accepted as '>4'4/?u'
+0:00:00:00 - Oldest still in use is now rule #71
+0:00:00:00 - Rule #73: '-<3 -c >3 '3 /?u l' accepted as '>3'3/?ul'
+0:00:00:00 - Oldest still in use is now rule #72
+0:00:00:00 - Rule #74: '-c u Q r' accepted as 'uQr'
+0:00:00:00 - Rule #75: '<* d M 'l f Q' accepted as '<*dM'lfQ'
+0:00:00:00 - Oldest still in use is now rule #74
+0:00:00:00 - Rule #76: '-c <* l Q d M 'l f Q' accepted as '<*lQdM'lfQ'
+0:00:00:00 - Oldest still in use is now rule #75
+0:00:00:00 - Rule #77: '>2 x12' accepted as '>2x12'
+0:00:00:00 - Oldest still in use is now rule #76
+0:00:00:00 - Rule #78: '>3 x13' accepted as '>3x13'
+0:00:00:00 - Oldest still in use is now rule #77
+0:00:00:00 - Rule #79: '>4 x14' accepted as '>4x14'
+0:00:00:00 - Rule #80: '>5 x15' accepted as '>5x15'
+0:00:00:00 - Oldest still in use is now rule #79
+0:00:00:00 - Rule #81: '>6 x16' accepted as '>6x16'
+0:00:00:00 - Oldest still in use is now rule #80
+0:00:00:00 - Rule #82: '>7 x17' accepted as '>7x17'
+0:00:00:00 - Oldest still in use is now rule #81
+0:00:00:00 - Rule #83: '>8 x18' accepted as '>8x18'
+0:00:00:00 - Rule #84: '>9 [' accepted as '>9['
+0:00:00:00 - Oldest still in use is now rule #83
+0:00:00:00 - Rule #85: '>3 x22' accepted as '>3x22'
+0:00:00:00 - Rule #86: '>4 x23' accepted as '>4x23'
+0:00:00:00 - Oldest still in use is now rule #85
+0:00:00:00 - Rule #87: '>5 x24' accepted as '>5x24'
+0:00:00:00 - Oldest still in use is now rule #86
+0:00:00:00 - Rule #88: '>6 x25' accepted as '>6x25'
+0:00:00:00 - Oldest still in use is now rule #87
+0:00:00:00 - Rule #89: '>7 x26' accepted as '>7x26'
+0:00:00:00 - Oldest still in use is now rule #88
+0:00:00:00 - Rule #90: '>8 x27' accepted as '>8x27'
+0:00:00:00 - Rule #91: '>9 x28' accepted as '>9x28'
+0:00:00:00 - Oldest still in use is now rule #90
+0:00:00:00 - Rule #92: '>4 x32' accepted as '>4x32'
+0:00:00:00 - Rule #93: '>5 x33' accepted as '>5x33'
+0:00:00:00 - Oldest still in use is now rule #92
+0:00:00:00 - Rule #94: '>6 x34' accepted as '>6x34'
+0:00:00:00 - Oldest still in use is now rule #93
+0:00:00:00 - Rule #95: '>7 x35' accepted as '>7x35'
+0:00:00:00 - Oldest still in use is now rule #94
+0:00:00:00 - Rule #96: '>8 x36' accepted as '>8x36'
+0:00:00:00 - Rule #97: '>9 x37' accepted as '>9x37'
+0:00:00:00 - Oldest still in use is now rule #96
+0:00:00:00 - Rule #98: '-c >2 x12 /?u l' accepted as '>2x12/?ul'
+0:00:00:00 - Rule #99: '-c >3 x13 /?u l' accepted as '>3x13/?ul'
+0:00:00:00 - Oldest still in use is now rule #98
+0:00:00:00 - Rule #100: '-c >4 x14 /?u l' accepted as '>4x14/?ul'
+0:00:00:00 - Oldest still in use is now rule #99
+0:00:00:00 - Rule #101: '-c >5 x15 /?u l' accepted as '>5x15/?ul'
+0:00:00:00 - Rule #102: '-c >6 x16 /?u l' accepted as '>6x16/?ul'
+0:00:00:00 - Oldest still in use is now rule #101
+0:00:00:00 - Rule #103: '-c >7 x17 /?u l' accepted as '>7x17/?ul'
+0:00:00:00 - Oldest still in use is now rule #102
+0:00:00:00 - Rule #104: '-c >8 x18 /?u l' accepted as '>8x18/?ul'
+0:00:00:00 - Oldest still in use is now rule #103
+0:00:00:00 - Rule #105: '-c >9 [ /?u l' accepted as '>9[/?ul'
+0:00:00:00 - Rule #106: '-c >3 x22 /?u l' accepted as '>3x22/?ul'
+0:00:00:00 - Oldest still in use is now rule #105
+0:00:00:00 - Rule #107: '-c >4 x23 /?u l' accepted as '>4x23/?ul'
+0:00:00:00 - Rule #108: '-c >5 x24 /?u l' accepted as '>5x24/?ul'
+0:00:00:00 - Oldest still in use is now rule #107
+0:00:00:00 - Rule #109: '-c >6 x25 /?u l' accepted as '>6x25/?ul'
+0:00:00:00 - Rule #110: '-c >7 x26 /?u l' accepted as '>7x26/?ul'
+0:00:00:00 - Oldest still in use is now rule #109
+0:00:00:00 - Rule #111: '-c >8 x27 /?u l' accepted as '>8x27/?ul'
+0:00:00:00 - Oldest still in use is now rule #110
+0:00:00:00 - Rule #112: '-c >9 x28 /?u l' accepted as '>9x28/?ul'
+0:00:00:00 - Rule #113: '-c >4 x32 /?u l' accepted as '>4x32/?ul'
+0:00:00:00 - Oldest still in use is now rule #112
+0:00:00:00 - Rule #114: '-c >5 x33 /?u l' accepted as '>5x33/?ul'
+0:00:00:00 - Rule #115: '-c >6 x34 /?u l' accepted as '>6x34/?ul'
+0:00:00:00 - Oldest still in use is now rule #114
+0:00:00:00 - Rule #116: '-c >7 x35 /?u l' accepted as '>7x35/?ul'
+0:00:00:00 - Oldest still in use is now rule #115
+0:00:00:00 - Rule #117: '-c >8 x36 /?u l' accepted as '>8x36/?ul'
+0:00:00:00 - Rule #118: '-c >9 x37 /?u l' accepted as '>9x37/?ul'
+0:00:00:00 - Oldest still in use is now rule #117
+0:00:00:00 - Rule #119: '<* l $1' accepted as '<*l$1'
+0:00:00:00 - Rule #120: '<* l $2' accepted as '<*l$2'
+0:00:00:00 - Oldest still in use is now rule #119
+0:00:00:00 - Rule #121: '<* l $3' accepted as '<*l$3'
+0:00:00:00 - Oldest still in use is now rule #120
+0:00:00:00 - Rule #122: '<* l $4' accepted as '<*l$4'
+0:00:00:00 - Oldest still in use is now rule #121
+0:00:00:00 - Rule #123: '<* l $5' accepted as '<*l$5'
+0:00:00:00 - Oldest still in use is now rule #122
+0:00:00:00 - Rule #124: '<* l $6' accepted as '<*l$6'
+0:00:00:00 - Oldest still in use is now rule #123
+0:00:00:00 - Rule #125: '<* l $7' accepted as '<*l$7'
+0:00:00:00 - Oldest still in use is now rule #124
+0:00:00:00 - Rule #126: '<* l $8' accepted as '<*l$8'
+0:00:00:00 - Oldest still in use is now rule #125
+0:00:00:00 - Rule #127: '<* l $9' accepted as '<*l$9'
+0:00:00:00 - Oldest still in use is now rule #126
+0:00:00:00 - Rule #128: '<* l $!' accepted as '<*l$!'
+0:00:00:00 - Oldest still in use is now rule #127
+0:00:00:00 - Rule #129: '<* l $0' accepted as '<*l$0'
+0:00:00:00 - Oldest still in use is now rule #128
+0:00:00:00 - Rule #130: '<* l $a' accepted as '<*l$a'
+0:00:00:00 - Oldest still in use is now rule #129
+0:00:00:00 - Rule #131: '<* l $b' accepted as '<*l$b'
+0:00:00:00 - Oldest still in use is now rule #130
+0:00:00:00 - Rule #132: '<* l $c' accepted as '<*l$c'
+0:00:00:00 - Oldest still in use is now rule #131
+0:00:00:00 - Rule #133: '<* l $d' accepted as '<*l$d'
+0:00:00:00 - Oldest still in use is now rule #132
+0:00:00:00 - Rule #134: '<* l $e' accepted as '<*l$e'
+0:00:00:00 - Oldest still in use is now rule #133
+0:00:00:00 - Rule #135: '<* l $f' accepted as '<*l$f'
+0:00:00:00 - Oldest still in use is now rule #134
+0:00:00:00 - Rule #136: '<* l $g' accepted as '<*l$g'
+0:00:00:00 - Oldest still in use is now rule #135
+0:00:00:00 - Rule #137: '<* l $h' accepted as '<*l$h'
+0:00:00:00 - Oldest still in use is now rule #136
+0:00:00:00 - Rule #138: '<* l $i' accepted as '<*l$i'
+0:00:00:00 - Oldest still in use is now rule #137
+0:00:00:00 - Rule #139: '<* l $j' accepted as '<*l$j'
+0:00:00:00 - Oldest still in use is now rule #138
+0:00:00:00 - Rule #140: '<* l $k' accepted as '<*l$k'
+0:00:00:00 - Oldest still in use is now rule #139
+0:00:00:00 - Rule #141: '<* l $l' accepted as '<*l$l'
+0:00:00:00 - Oldest still in use is now rule #140
+0:00:00:00 - Rule #142: '<* l $m' accepted as '<*l$m'
+0:00:00:00 - Oldest still in use is now rule #141
+0:00:00:00 - Rule #143: '<* l $n' accepted as '<*l$n'
+0:00:00:00 - Oldest still in use is now rule #142
+0:00:00:00 - Rule #144: '<* l $o' accepted as '<*l$o'
+0:00:00:00 - Oldest still in use is now rule #143
+0:00:00:00 - Rule #145: '<* l $p' accepted as '<*l$p'
+0:00:00:00 - Oldest still in use is now rule #144
+0:00:00:00 - Rule #146: '<* l $q' accepted as '<*l$q'
+0:00:00:00 - Oldest still in use is now rule #145
+0:00:00:00 - Rule #147: '<* l $r' accepted as '<*l$r'
+0:00:00:00 - Oldest still in use is now rule #146
+0:00:00:00 - Rule #148: '<* l $t' accepted as '<*l$t'
+0:00:00:00 - Oldest still in use is now rule #147
+0:00:00:00 - Rule #149: '<* l $u' accepted as '<*l$u'
+0:00:00:00 - Oldest still in use is now rule #148
+0:00:00:00 - Rule #150: '<* l $v' accepted as '<*l$v'
+0:00:00:00 - Oldest still in use is now rule #149
+0:00:00:00 - Rule #151: '<* l $w' accepted as '<*l$w'
+0:00:00:00 - Oldest still in use is now rule #150
+0:00:00:00 - Rule #152: '<* l $x' accepted as '<*l$x'
+0:00:00:00 - Oldest still in use is now rule #151
+0:00:00:00 - Rule #153: '<* l $y' accepted as '<*l$y'
+0:00:00:00 - Oldest still in use is now rule #152
+0:00:00:00 - Rule #154: '<* l $z' accepted as '<*l$z'
+0:00:00:00 - Oldest still in use is now rule #153
+0:00:00:00 - Rule #155: '<* l $"' accepted as '<*l$"'
+0:00:00:00 - Oldest still in use is now rule #154
+0:00:00:00 - Rule #156: '<* l $#' accepted as '<*l$#'
+0:00:00:00 - Oldest still in use is now rule #155
+0:00:00:00 - Rule #157: '<* l $$' accepted as '<*l$$'
+0:00:00:00 - Oldest still in use is now rule #156
+0:00:00:00 - Rule #158: '<* l $%' accepted as '<*l$%'
+0:00:00:00 - Oldest still in use is now rule #157
+0:00:00:00 - Rule #159: '<* l $&' accepted as '<*l$&'
+0:00:00:00 - Oldest still in use is now rule #158
+0:00:00:00 - Rule #160: '<* l $'' accepted as '<*l$''
+0:00:00:00 - Oldest still in use is now rule #159
+0:00:00:00 - Rule #161: '<* l $(' accepted as '<*l$('
+0:00:00:00 - Oldest still in use is now rule #160
+0:00:00:00 - Rule #162: '<* l $)' accepted as '<*l$)'
+0:00:00:00 - Oldest still in use is now rule #161
+0:00:00:00 - Rule #163: '<* l $*' accepted as '<*l$*'
+0:00:00:00 - Oldest still in use is now rule #162
+0:00:00:00 - Rule #164: '<* l $+' accepted as '<*l$+'
+0:00:00:00 - Oldest still in use is now rule #163
+0:00:00:00 - Rule #165: '<* l $,' accepted as '<*l$,'
+0:00:00:00 - Oldest still in use is now rule #164
+0:00:00:00 - Rule #166: '<* l $-' accepted as '<*l$-'
+0:00:00:00 - Oldest still in use is now rule #165
+0:00:00:00 - Rule #167: '<* l $.' accepted as '<*l$.'
+0:00:00:00 - Oldest still in use is now rule #166
+0:00:00:00 - Rule #168: '<* l $/' accepted as '<*l$/'
+0:00:00:00 - Oldest still in use is now rule #167
+0:00:00:00 - Rule #169: '<* l $:' accepted as '<*l$:'
+0:00:00:00 - Oldest still in use is now rule #168
+0:00:00:00 - Rule #170: '<* l $;' accepted as '<*l$;'
+0:00:00:00 - Oldest still in use is now rule #169
+0:00:00:00 - Rule #171: '<* l $<' accepted as '<*l$<'
+0:00:00:00 - Oldest still in use is now rule #170
+0:00:00:00 - Rule #172: '<* l $=' accepted as '<*l$='
+0:00:00:00 - Oldest still in use is now rule #171
+0:00:00:00 - Rule #173: '<* l $>' accepted as '<*l$>'
+0:00:00:00 - Oldest still in use is now rule #172
+0:00:00:00 - Rule #174: '<* l $?' accepted as '<*l$?'
+0:00:00:00 - Oldest still in use is now rule #173
+0:00:00:00 - Rule #175: '<* l $@' accepted as '<*l$@'
+0:00:00:00 - Oldest still in use is now rule #174
+0:00:00:00 - Rule #176: '<* l $[' accepted as '<*l$['
+0:00:00:00 - Oldest still in use is now rule #175
+0:00:00:00 - Rule #177: '<* l $\' accepted as '<*l$\'
+0:00:00:00 - Oldest still in use is now rule #176
+0:00:00:00 - Rule #178: '<* l $]' accepted as '<*l$]'
+0:00:00:00 - Oldest still in use is now rule #177
+0:00:00:00 - Rule #179: '<* l $^' accepted as '<*l$^'
+0:00:00:00 - Oldest still in use is now rule #178
+0:00:00:00 - Rule #180: '<* l $_' accepted as '<*l$_'
+0:00:00:00 - Oldest still in use is now rule #179
+0:00:00:00 - Rule #181: '<* l $`' accepted as '<*l$`'
+0:00:00:00 - Oldest still in use is now rule #180
+0:00:00:00 - Rule #182: '<* l ${' accepted as '<*l${'
+0:00:00:00 - Oldest still in use is now rule #181
+0:00:00:00 - Rule #183: '<* l $|' accepted as '<*l$|'
+0:00:00:00 - Oldest still in use is now rule #182
+0:00:00:00 - Rule #184: '<* l $}' accepted as '<*l$}'
+0:00:00:00 - Oldest still in use is now rule #183
+0:00:00:00 - Rule #185: '<* l $~' accepted as '<*l$~'
+0:00:00:00 - Oldest still in use is now rule #184
+0:00:00:00 - Rule #186: '-c <* (?a c $1' accepted as '<*(?ac$1'
+0:00:00:00 - Oldest still in use is now rule #185
+0:00:00:00 - Rule #187: '-c <* (?a c $2' accepted as '<*(?ac$2'
+0:00:00:00 - Oldest still in use is now rule #186
+0:00:00:00 - Rule #188: '-c <* (?a c $3' accepted as '<*(?ac$3'
+0:00:00:00 - Oldest still in use is now rule #187
+0:00:00:00 - Rule #189: '-c <* (?a c $4' accepted as '<*(?ac$4'
+0:00:00:00 - Oldest still in use is now rule #188
+0:00:00:00 - Rule #190: '-c <* (?a c $5' accepted as '<*(?ac$5'
+0:00:00:00 - Oldest still in use is now rule #189
+0:00:00:00 - Rule #191: '-c <* (?a c $6' accepted as '<*(?ac$6'
+0:00:00:00 - Oldest still in use is now rule #190
+0:00:00:00 - Rule #192: '-c <* (?a c $7' accepted as '<*(?ac$7'
+0:00:00:00 - Oldest still in use is now rule #191
+0:00:00:00 - Rule #193: '-c <* (?a c $8' accepted as '<*(?ac$8'
+0:00:00:00 - Oldest still in use is now rule #192
+0:00:00:00 - Rule #194: '-c <* (?a c $9' accepted as '<*(?ac$9'
+0:00:00:00 - Oldest still in use is now rule #193
+0:00:00:00 - Rule #195: '-c <* (?a c $!' accepted as '<*(?ac$!'
+0:00:00:00 - Oldest still in use is now rule #194
+0:00:00:00 - Rule #196: '-c <* (?a c $0' accepted as '<*(?ac$0'
+0:00:00:00 - Oldest still in use is now rule #195
+0:00:00:00 - Rule #197: '-c <* (?a c $a' accepted as '<*(?ac$a'
+0:00:00:00 - Oldest still in use is now rule #196
+0:00:00:00 - Rule #198: '-c <* (?a c $b' accepted as '<*(?ac$b'
+0:00:00:00 - Oldest still in use is now rule #197
+0:00:00:00 - Rule #199: '-c <* (?a c $c' accepted as '<*(?ac$c'
+0:00:00:00 - Oldest still in use is now rule #198
+0:00:00:00 - Rule #200: '-c <* (?a c $d' accepted as '<*(?ac$d'
+0:00:00:00 - Oldest still in use is now rule #199
+0:00:00:00 - Rule #201: '-c <* (?a c $e' accepted as '<*(?ac$e'
+0:00:00:00 - Oldest still in use is now rule #200
+0:00:00:00 - Rule #202: '-c <* (?a c $f' accepted as '<*(?ac$f'
+0:00:00:00 - Oldest still in use is now rule #201
+0:00:00:00 - Rule #203: '-c <* (?a c $g' accepted as '<*(?ac$g'
+0:00:00:00 - Oldest still in use is now rule #202
+0:00:00:00 - Rule #204: '-c <* (?a c $h' accepted as '<*(?ac$h'
+0:00:00:00 - Oldest still in use is now rule #203
+0:00:00:00 - Rule #205: '-c <* (?a c $i' accepted as '<*(?ac$i'
+0:00:00:00 - Oldest still in use is now rule #204
+0:00:00:00 - Rule #206: '-c <* (?a c $j' accepted as '<*(?ac$j'
+0:00:00:00 - Oldest still in use is now rule #205
+0:00:00:00 - Rule #207: '-c <* (?a c $k' accepted as '<*(?ac$k'
+0:00:00:00 - Oldest still in use is now rule #206
+0:00:00:00 - Rule #208: '-c <* (?a c $l' accepted as '<*(?ac$l'
+0:00:00:00 - Oldest still in use is now rule #207
+0:00:00:00 - Rule #209: '-c <* (?a c $m' accepted as '<*(?ac$m'
+0:00:00:00 - Oldest still in use is now rule #208
+0:00:00:00 - Rule #210: '-c <* (?a c $n' accepted as '<*(?ac$n'
+0:00:00:00 - Oldest still in use is now rule #209
+0:00:00:00 - Rule #211: '-c <* (?a c $o' accepted as '<*(?ac$o'
+0:00:00:00 - Oldest still in use is now rule #210
+0:00:00:00 - Rule #212: '-c <* (?a c $p' accepted as '<*(?ac$p'
+0:00:00:00 - Oldest still in use is now rule #211
+0:00:00:00 - Rule #213: '-c <* (?a c $q' accepted as '<*(?ac$q'
+0:00:00:00 - Oldest still in use is now rule #212
+0:00:00:00 - Rule #214: '-c <* (?a c $r' accepted as '<*(?ac$r'
+0:00:00:00 - Oldest still in use is now rule #213
+0:00:00:00 - Rule #215: '-c <* (?a c $t' accepted as '<*(?ac$t'
+0:00:00:00 - Oldest still in use is now rule #214
+0:00:00:00 - Rule #216: '-c <* (?a c $u' accepted as '<*(?ac$u'
+0:00:00:00 - Oldest still in use is now rule #215
+0:00:00:00 - Rule #217: '-c <* (?a c $v' accepted as '<*(?ac$v'
+0:00:00:00 - Oldest still in use is now rule #216
+0:00:00:00 - Rule #218: '-c <* (?a c $w' accepted as '<*(?ac$w'
+0:00:00:00 - Oldest still in use is now rule #217
+0:00:00:00 - Rule #219: '-c <* (?a c $x' accepted as '<*(?ac$x'
+0:00:00:00 - Oldest still in use is now rule #218
+0:00:00:00 - Rule #220: '-c <* (?a c $y' accepted as '<*(?ac$y'
+0:00:00:00 - Oldest still in use is now rule #219
+0:00:00:00 - Rule #221: '-c <* (?a c $z' accepted as '<*(?ac$z'
+0:00:00:00 - Oldest still in use is now rule #220
+0:00:00:00 - Rule #222: '-c <* (?a c $"' accepted as '<*(?ac$"'
+0:00:00:00 - Oldest still in use is now rule #221
+0:00:00:00 - Rule #223: '-c <* (?a c $#' accepted as '<*(?ac$#'
+0:00:00:00 - Oldest still in use is now rule #222
+0:00:00:00 - Rule #224: '-c <* (?a c $$' accepted as '<*(?ac$$'
+0:00:00:00 - Oldest still in use is now rule #223
+0:00:00:00 - Rule #225: '-c <* (?a c $%' accepted as '<*(?ac$%'
+0:00:00:00 - Oldest still in use is now rule #224
+0:00:00:00 - Rule #226: '-c <* (?a c $&' accepted as '<*(?ac$&'
+0:00:00:00 - Oldest still in use is now rule #225
+0:00:00:00 - Rule #227: '-c <* (?a c $'' accepted as '<*(?ac$''
+0:00:00:00 - Oldest still in use is now rule #226
+0:00:00:00 - Rule #228: '-c <* (?a c $(' accepted as '<*(?ac$('
+0:00:00:00 - Oldest still in use is now rule #227
+0:00:00:00 - Rule #229: '-c <* (?a c $)' accepted as '<*(?ac$)'
+0:00:00:00 - Oldest still in use is now rule #228
+0:00:00:00 - Rule #230: '-c <* (?a c $*' accepted as '<*(?ac$*'
+0:00:00:00 - Oldest still in use is now rule #229
+0:00:00:00 - Rule #231: '-c <* (?a c $+' accepted as '<*(?ac$+'
+0:00:00:00 - Oldest still in use is now rule #230
+0:00:00:00 - Rule #232: '-c <* (?a c $,' accepted as '<*(?ac$,'
+0:00:00:00 - Oldest still in use is now rule #231
+0:00:00:00 - Rule #233: '-c <* (?a c $-' accepted as '<*(?ac$-'
+0:00:00:00 - Oldest still in use is now rule #232
+0:00:00:00 - Rule #234: '-c <* (?a c $.' accepted as '<*(?ac$.'
+0:00:00:00 - Oldest still in use is now rule #233
+0:00:00:00 - Rule #235: '-c <* (?a c $/' accepted as '<*(?ac$/'
+0:00:00:00 - Oldest still in use is now rule #234
+0:00:00:00 - Rule #236: '-c <* (?a c $:' accepted as '<*(?ac$:'
+0:00:00:00 - Oldest still in use is now rule #235
+0:00:00:00 - Rule #237: '-c <* (?a c $;' accepted as '<*(?ac$;'
+0:00:00:00 - Oldest still in use is now rule #236
+0:00:00:00 - Rule #238: '-c <* (?a c $<' accepted as '<*(?ac$<'
+0:00:00:00 - Oldest still in use is now rule #237
+0:00:00:00 - Rule #239: '-c <* (?a c $=' accepted as '<*(?ac$='
+0:00:00:00 - Oldest still in use is now rule #238
+0:00:00:00 - Rule #240: '-c <* (?a c $>' accepted as '<*(?ac$>'
+0:00:00:00 - Oldest still in use is now rule #239
+0:00:00:00 - Rule #241: '-c <* (?a c $?' accepted as '<*(?ac$?'
+0:00:00:00 - Oldest still in use is now rule #240
+0:00:00:00 - Rule #242: '-c <* (?a c $@' accepted as '<*(?ac$@'
+0:00:00:00 - Oldest still in use is now rule #241
+0:00:00:00 - Rule #243: '-c <* (?a c $[' accepted as '<*(?ac$['
+0:00:00:00 - Oldest still in use is now rule #242
+0:00:00:00 - Rule #244: '-c <* (?a c $\' accepted as '<*(?ac$\'
+0:00:00:00 - Oldest still in use is now rule #243
+0:00:00:00 - Rule #245: '-c <* (?a c $]' accepted as '<*(?ac$]'
+0:00:00:00 - Oldest still in use is now rule #244
+0:00:00:00 - Rule #246: '-c <* (?a c $^' accepted as '<*(?ac$^'
+0:00:00:00 - Oldest still in use is now rule #245
+0:00:00:00 - Rule #247: '-c <* (?a c $_' accepted as '<*(?ac$_'
+0:00:00:00 - Oldest still in use is now rule #246
+0:00:00:00 - Rule #248: '-c <* (?a c $`' accepted as '<*(?ac$`'
+0:00:00:00 - Oldest still in use is now rule #247
+0:00:00:00 - Rule #249: '-c <* (?a c ${' accepted as '<*(?ac${'
+0:00:00:00 - Oldest still in use is now rule #248
+0:00:00:00 - Rule #250: '-c <* (?a c $|' accepted as '<*(?ac$|'
+0:00:00:00 - Oldest still in use is now rule #249
+0:00:00:00 - Rule #251: '-c <* (?a c $}' accepted as '<*(?ac$}'
+0:00:00:00 - Oldest still in use is now rule #250
+0:00:00:00 - Rule #252: '-c <* (?a c $~' accepted as '<*(?ac$~'
+0:00:00:00 - Oldest still in use is now rule #251
+0:00:00:00 - Rule #253: '-: <* !?A (?z l $s M 'l p Q X0z0 'l $s' accepted as '<*!?A(?zl$sM'lpQX0z0'l$s'
+0:00:00:00 - Oldest still in use is now rule #252
+0:00:00:00 - Rule #254: '-c <* !?A (?a c $s M 'l p Q X0z0 'l $s' accepted as '<*!?A(?ac$sM'lpQX0z0'l$s'
+0:00:00:00 - Rule #255: '-: <* /?A (?z l $s' accepted as '<*/?A(?zl$s'
+0:00:00:00 - Rule #256: '-c <* /?A (?a c $s' accepted as '<*/?A(?ac$s'
+0:00:00:00 - Oldest still in use is now rule #255
+0:00:00:00 - Rule #257: '<* l r $1' accepted as '<*lr$1'
+0:00:00:00 - Rule #258: '<* l r $2' accepted as '<*lr$2'
+0:00:00:00 - Oldest still in use is now rule #257
+0:00:00:00 - Rule #259: '<* l r $3' accepted as '<*lr$3'
+0:00:00:00 - Oldest still in use is now rule #258
+0:00:00:00 - Rule #260: '<* l r $4' accepted as '<*lr$4'
+0:00:00:00 - Oldest still in use is now rule #259
+0:00:00:00 - Rule #261: '<* l r $5' accepted as '<*lr$5'
+0:00:00:00 - Oldest still in use is now rule #260
+0:00:00:00 - Rule #262: '<* l r $6' accepted as '<*lr$6'
+0:00:00:00 - Oldest still in use is now rule #261
+0:00:00:00 - Rule #263: '<* l r $7' accepted as '<*lr$7'
+0:00:00:00 - Oldest still in use is now rule #262
+0:00:00:00 - Rule #264: '<* l r $8' accepted as '<*lr$8'
+0:00:00:00 - Oldest still in use is now rule #263
+0:00:00:00 - Rule #265: '<* l r $9' accepted as '<*lr$9'
+0:00:00:00 - Oldest still in use is now rule #264
+0:00:00:00 - Rule #266: '<* l r $!' accepted as '<*lr$!'
+0:00:00:00 - Oldest still in use is now rule #265
+0:00:00:00 - Rule #267: '-c <* /?a u $1' accepted as '<*/?au$1'
+0:00:00:00 - Oldest still in use is now rule #266
+0:00:00:00 - Rule #268: '-c <* /?a u $2' accepted as '<*/?au$2'
+0:00:00:00 - Oldest still in use is now rule #267
+0:00:00:00 - Rule #269: '-c <* /?a u $3' accepted as '<*/?au$3'
+0:00:00:00 - Oldest still in use is now rule #268
+0:00:00:00 - Rule #270: '-c <* /?a u $4' accepted as '<*/?au$4'
+0:00:00:00 - Oldest still in use is now rule #269
+0:00:00:00 - Rule #271: '-c <* /?a u $5' accepted as '<*/?au$5'
+0:00:00:00 - Oldest still in use is now rule #270
+0:00:00:00 - Rule #272: '-c <* /?a u $6' accepted as '<*/?au$6'
+0:00:00:00 - Oldest still in use is now rule #271
+0:00:00:00 - Rule #273: '-c <* /?a u $7' accepted as '<*/?au$7'
+0:00:00:00 - Oldest still in use is now rule #272
+0:00:00:00 - Rule #274: '-c <* /?a u $8' accepted as '<*/?au$8'
+0:00:00:00 - Oldest still in use is now rule #273
+0:00:00:00 - Rule #275: '-c <* /?a u $9' accepted as '<*/?au$9'
+0:00:00:00 - Oldest still in use is now rule #274
+0:00:00:00 - Rule #276: '-c <* /?a u $!' accepted as '<*/?au$!'
+0:00:00:00 - Oldest still in use is now rule #275
+0:00:00:00 - Rule #277: '-: <- (?z l Az"'s"' accepted as '<-(?zlAz"'s"'
+0:00:00:00 - Oldest still in use is now rule #276
+0:00:00:00 - Rule #278: '-c <- (?a c Az"'s"' accepted as '<-(?acAz"'s"'
+0:00:00:00 - Oldest still in use is now rule #277
+0:00:00:00 - Rule #279: '-: <- (?z l Az"!!"' accepted as '<-(?zlAz"!!"'
+0:00:00:00 - Oldest still in use is now rule #278
+0:00:00:00 - Rule #280: '-c <- (?a c Az"!!"' accepted as '<-(?acAz"!!"'
+0:00:00:00 - Oldest still in use is now rule #279
+0:00:00:00 - Rule #281: '-: (?z l $! <- Az"!!"' accepted as '(?zl$!<-Az"!!"'
+0:00:00:00 - Oldest still in use is now rule #280
+0:00:00:00 - Rule #282: '-c (?a c $! <- Az"!!"' accepted as '(?ac$!<-Az"!!"'
+0:00:00:00 - Oldest still in use is now rule #281
+0:00:00:00 - Rule #283: '-: /?v @?v >2 (?z l' accepted as '/?v@?v>2(?zl'
+0:00:00:00 - Oldest still in use is now rule #282
+0:00:00:00 - Rule #284: '-c /?v @?v >2 (?a c' accepted as '/?v@?v>2(?ac'
+0:00:00:00 - Oldest still in use is now rule #283
+0:00:00:00 - Rule #285: '/?v @?v >2 <* d' accepted as '/?v@?v>2<*d'
+0:00:00:00 - Oldest still in use is now rule #284
+0:00:00:00 - Rule #286: '<* l P' accepted as '<*lP'
+0:00:00:00 - Oldest still in use is now rule #285
+0:00:00:00 - Rule #287: '<* l I' accepted as '<*lI'
+0:00:00:00 - Oldest still in use is now rule #286
+0:00:00:00 - Rule #288: '-c <* l P (?a c' accepted as '<*lP(?ac'
+0:00:00:00 - Oldest still in use is now rule #287
+0:00:00:00 - Rule #289: '-c <* l I (?a c' accepted as '<*lI(?ac'
+0:00:00:00 - Oldest still in use is now rule #288
+0:00:00:00 - Rule #290: '-: <* (?z l )y omi $e' accepted as '<*(?zl)yomi$e'
+0:00:00:00 - Oldest still in use is now rule #289
+0:00:00:00 - Rule #291: '-c <* (?a c )y omi $e' accepted as '<*(?ac)yomi$e'
+0:00:00:00 - Oldest still in use is now rule #290
+0:00:00:00 - Rule #292: '-: <* (?z l )e ] )i val1 oay' accepted as '<*(?zl)e])ival1oay'
+0:00:00:00 - Oldest still in use is now rule #291
+0:00:00:00 - Rule #293: '-c <* (?a c )e ] )i val1 oay' accepted as '<*(?ac)e])ival1oay'
+0:00:00:00 - Oldest still in use is now rule #292
+0:00:00:00 - Rule #294: '-: l /a sa4 (?z :' accepted as 'l/asa4(?z'
+0:00:00:00 - Oldest still in use is now rule #293
+0:00:00:00 - Rule #295: '-: l /e se3 (?z :' accepted as 'l/ese3(?z'
+0:00:00:00 - Oldest still in use is now rule #294
+0:00:00:00 - Rule #296: '-: l /l sl1 (?z :' accepted as 'l/lsl1(?z'
+0:00:00:00 - Rule #297: '-: l /o so0 (?z :' accepted as 'l/oso0(?z'
+0:00:00:00 - Rule #298: '-: l /s ss$ (?z :' accepted as 'l/sss$(?z'
+0:00:00:00 - Oldest still in use is now rule #297
+0:00:00:00 - Rule #299: '-c l /a sa4 (?a c' accepted as 'l/asa4(?ac'
+0:00:00:00 - Oldest still in use is now rule #298
+0:00:00:00 - Rule #300: '-c l /e se3 (?a c' accepted as 'l/ese3(?ac'
+0:00:00:00 - Rule #301: '-c l /l sl1 (?a c' accepted as 'l/lsl1(?ac'
+0:00:00:00 - Rule #302: '-c l /o so0 (?a c' accepted as 'l/oso0(?ac'
+0:00:00:00 - Rule #303: '-c l /s ss$ (?a c' accepted as 'l/sss$(?ac'
+0:00:00:00 - Oldest still in use is now rule #302
+0:00:00:00 - Rule #304: '-: l /a /e sa4 se3 (?z :' accepted as 'l/a/esa4se3(?z'
+0:00:00:00 - Oldest still in use is now rule #303
+0:00:00:00 - Rule #305: '-: l /a /l sa4 sl1 (?z :' accepted as 'l/a/lsa4sl1(?z'
+0:00:00:00 - Rule #306: '-: l /a /o sa4 so0 (?z :' accepted as 'l/a/osa4so0(?z'
+0:00:00:00 - Rule #307: '-: l /a /s sa4 ss$ (?z :' accepted as 'l/a/ssa4ss$(?z'
+0:00:00:00 - Rule #308: '-c l /a /e sa4 se3 (?a c' accepted as 'l/a/esa4se3(?ac'
+0:00:00:00 - Rule #309: '-c l /a /l sa4 sl1 (?a c' accepted as 'l/a/lsa4sl1(?ac'
+0:00:00:00 - Rule #310: '-c l /a /o sa4 so0 (?a c' accepted as 'l/a/osa4so0(?ac'
+0:00:00:00 - Rule #311: '-c l /a /s sa4 ss$ (?a c' accepted as 'l/a/ssa4ss$(?ac'
+0:00:00:00 - Rule #312: '-: l /e /l se3 sl1 (?z :' accepted as 'l/e/lse3sl1(?z'
+0:00:00:00 - Rule #313: '-: l /e /o se3 so0 (?z :' accepted as 'l/e/ose3so0(?z'
+0:00:00:00 - Rule #314: '-: l /e /s se3 ss$ (?z :' accepted as 'l/e/sse3ss$(?z'
+0:00:00:00 - Oldest still in use is now rule #313
+0:00:00:00 - Rule #315: '-c l /e /l se3 sl1 (?a c' accepted as 'l/e/lse3sl1(?ac'
+0:00:00:00 - Rule #316: '-c l /e /o se3 so0 (?a c' accepted as 'l/e/ose3so0(?ac'
+0:00:00:00 - Rule #317: '-c l /e /s se3 ss$ (?a c' accepted as 'l/e/sse3ss$(?ac'
+0:00:00:00 - Oldest still in use is now rule #316
+0:00:00:00 - Rule #318: '-: l /l /o sl1 so0 (?z :' accepted as 'l/l/osl1so0(?z'
+0:00:00:00 - Oldest still in use is now rule #317
+0:00:00:00 - Rule #319: '-: l /l /s sl1 ss$ (?z :' accepted as 'l/l/ssl1ss$(?z'
+0:00:00:00 - Oldest still in use is now rule #318
+0:00:00:00 - Rule #320: '-c l /l /o sl1 so0 (?a c' accepted as 'l/l/osl1so0(?ac'
+0:00:00:00 - Oldest still in use is now rule #319
+0:00:00:00 - Rule #321: '-c l /l /s sl1 ss$ (?a c' accepted as 'l/l/ssl1ss$(?ac'
+0:00:00:00 - Oldest still in use is now rule #320
+0:00:00:00 - Rule #322: '-: l /o /s so0 ss$ (?z :' accepted as 'l/o/sso0ss$(?z'
+0:00:00:00 - Oldest still in use is now rule #321
+0:00:00:00 - Rule #323: '-c l /o /s so0 ss$ (?a c' accepted as 'l/o/sso0ss$(?ac'
+0:00:00:00 - Rule #324: '-: l /a /e /l sa4 se3 sl1 (?z :' accepted as 'l/a/e/lsa4se3sl1(?z'
+0:00:00:00 - Oldest still in use is now rule #323
+0:00:00:00 - Rule #325: '-: l /a /e /o sa4 se3 so0 (?z :' accepted as 'l/a/e/osa4se3so0(?z'
+0:00:00:00 - Rule #326: '-: l /a /e /s sa4 se3 ss$ (?z :' accepted as 'l/a/e/ssa4se3ss$(?z'
+0:00:00:00 - Rule #327: '-c l /a /e /l sa4 se3 sl1 (?a c' accepted as 'l/a/e/lsa4se3sl1(?ac'
+0:00:00:00 - Rule #328: '-c l /a /e /o sa4 se3 so0 (?a c' accepted as 'l/a/e/osa4se3so0(?ac'
+0:00:00:00 - Rule #329: '-c l /a /e /s sa4 se3 ss$ (?a c' accepted as 'l/a/e/ssa4se3ss$(?ac'
+0:00:00:00 - Rule #330: '-: l /a /l /o sa4 sl1 so0 (?z :' accepted as 'l/a/l/osa4sl1so0(?z'
+0:00:00:00 - Rule #331: '-: l /a /l /s sa4 sl1 ss$ (?z :' accepted as 'l/a/l/ssa4sl1ss$(?z'
+0:00:00:00 - Rule #332: '-c l /a /l /o sa4 sl1 so0 (?a c' accepted as 'l/a/l/osa4sl1so0(?ac'
+0:00:00:00 - Rule #333: '-c l /a /l /s sa4 sl1 ss$ (?a c' accepted as 'l/a/l/ssa4sl1ss$(?ac'
+0:00:00:00 - Rule #334: '-: l /a /o /s sa4 so0 ss$ (?z :' accepted as 'l/a/o/ssa4so0ss$(?z'
+0:00:00:00 - Rule #335: '-c l /a /o /s sa4 so0 ss$ (?a c' accepted as 'l/a/o/ssa4so0ss$(?ac'
+0:00:00:00 - Rule #336: '-: l /e /l /o se3 sl1 so0 (?z :' accepted as 'l/e/l/ose3sl1so0(?z'
+0:00:00:00 - Rule #337: '-: l /e /l /s se3 sl1 ss$ (?z :' accepted as 'l/e/l/sse3sl1ss$(?z'
+0:00:00:00 - Rule #338: '-c l /e /l /o se3 sl1 so0 (?a c' accepted as 'l/e/l/ose3sl1so0(?ac'
+0:00:00:00 - Rule #339: '-c l /e /l /s se3 sl1 ss$ (?a c' accepted as 'l/e/l/sse3sl1ss$(?ac'
+0:00:00:00 - Rule #340: '-: l /e /o /s se3 so0 ss$ (?z :' accepted as 'l/e/o/sse3so0ss$(?z'
+0:00:00:00 - Rule #341: '-: l /l /o /s sl1 so0 ss$ (?z :' accepted as 'l/l/o/ssl1so0ss$(?z'
+0:00:00:00 - Oldest still in use is now rule #340
+0:00:00:00 - Rule #342: '-c l /e /o /s se3 so0 ss$ (?a c' accepted as 'l/e/o/sse3so0ss$(?ac'
+0:00:00:00 - Oldest still in use is now rule #341
+0:00:00:00 - Rule #343: '-c l /l /o /s sl1 so0 ss$ (?a c' accepted as 'l/l/o/ssl1so0ss$(?ac'
+0:00:00:00 - Rule #344: '-: l /a /e /l /o sa4 se3 sl1 so0 (?z :' accepted as 'l/a/e/l/osa4se3sl1so0(?z'
+0:00:00:00 - Rule #345: '-: l /a /e /l /s sa4 se3 sl1 ss$ (?z :' accepted as 'l/a/e/l/ssa4se3sl1ss$(?z'
+0:00:00:00 - Rule #346: '-c l /a /e /l /o sa4 se3 sl1 so0 (?a c' accepted as 'l/a/e/l/osa4se3sl1so0(?ac'
+0:00:00:00 - Rule #347: '-c l /a /e /l /s sa4 se3 sl1 ss$ (?a c' accepted as 'l/a/e/l/ssa4se3sl1ss$(?ac'
+0:00:00:00 - Rule #348: '-: l /a /e /o /s sa4 se3 so0 ss$ (?z :' accepted as 'l/a/e/o/ssa4se3so0ss$(?z'
+0:00:00:00 - Rule #349: '-: l /a /l /o /s sa4 sl1 so0 ss$ (?z :' accepted as 'l/a/l/o/ssa4sl1so0ss$(?z'
+0:00:00:00 - Rule #350: '-c l /a /e /o /s sa4 se3 so0 ss$ (?a c' accepted as 'l/a/e/o/ssa4se3so0ss$(?ac'
+0:00:00:00 - Rule #351: '-c l /a /l /o /s sa4 sl1 so0 ss$ (?a c' accepted as 'l/a/l/o/ssa4sl1so0ss$(?ac'
+0:00:00:00 - Rule #352: '-: l /e /l /o /s se3 sl1 so0 ss$ (?z :' accepted as 'l/e/l/o/sse3sl1so0ss$(?z'
+0:00:00:00 - Rule #353: '-c l /e /l /o /s se3 sl1 so0 ss$ (?a c' accepted as 'l/e/l/o/sse3sl1so0ss$(?ac'
+0:00:00:00 - Rule #354: '-: l /a /e /l /o /s sa4 se3 sl1 so0 ss$ (?z :' accepted as 'l/a/e/l/o/ssa4se3sl1so0ss$(?z'
+0:00:00:00 - Rule #355: '-c l /a /e /l /o /s sa4 se3 sl1 so0 ss$ (?a c' accepted as 'l/a/e/l/o/ssa4se3sl1so0ss$(?ac'
+0:00:00:00 - Rule #356: 'l ^1' accepted as 'l^1'
+0:00:00:00 - Rule #357: 'l ^a' accepted as 'l^a'
+0:00:00:00 - Oldest still in use is now rule #356
+0:00:00:00 - Rule #358: 'l ^b' accepted as 'l^b'
+0:00:00:00 - Oldest still in use is now rule #357
+0:00:00:00 - Rule #359: 'l ^c' accepted as 'l^c'
+0:00:00:00 - Oldest still in use is now rule #358
+0:00:00:00 - Rule #360: 'l ^d' accepted as 'l^d'
+0:00:00:00 - Oldest still in use is now rule #359
+0:00:00:00 - Rule #361: 'l ^e' accepted as 'l^e'
+0:00:00:00 - Oldest still in use is now rule #360
+0:00:00:00 - Rule #362: 'l ^f' accepted as 'l^f'
+0:00:00:00 - Oldest still in use is now rule #361
+0:00:00:00 - Rule #363: 'l ^g' accepted as 'l^g'
+0:00:00:00 - Oldest still in use is now rule #362
+0:00:00:00 - Rule #364: 'l ^h' accepted as 'l^h'
+0:00:00:00 - Oldest still in use is now rule #363
+0:00:00:00 - Rule #365: 'l ^i' accepted as 'l^i'
+0:00:00:00 - Oldest still in use is now rule #364
+0:00:00:00 - Rule #366: 'l ^j' accepted as 'l^j'
+0:00:00:00 - Oldest still in use is now rule #365
+0:00:00:00 - Rule #367: 'l ^k' accepted as 'l^k'
+0:00:00:00 - Oldest still in use is now rule #366
+0:00:00:00 - Rule #368: 'l ^l' accepted as 'l^l'
+0:00:00:00 - Oldest still in use is now rule #367
+0:00:00:00 - Rule #369: 'l ^m' accepted as 'l^m'
+0:00:00:00 - Oldest still in use is now rule #368
+0:00:00:00 - Rule #370: 'l ^n' accepted as 'l^n'
+0:00:00:00 - Oldest still in use is now rule #369
+0:00:00:00 - Rule #371: 'l ^o' accepted as 'l^o'
+0:00:00:00 - Oldest still in use is now rule #370
+0:00:00:00 - Rule #372: 'l ^p' accepted as 'l^p'
+0:00:00:00 - Oldest still in use is now rule #371
+0:00:00:00 - Rule #373: 'l ^q' accepted as 'l^q'
+0:00:00:00 - Oldest still in use is now rule #372
+0:00:00:00 - Rule #374: 'l ^r' accepted as 'l^r'
+0:00:00:00 - Oldest still in use is now rule #373
+0:00:00:00 - Rule #375: 'l ^s' accepted as 'l^s'
+0:00:00:00 - Oldest still in use is now rule #374
+0:00:00:00 - Rule #376: 'l ^t' accepted as 'l^t'
+0:00:00:00 - Oldest still in use is now rule #375
+0:00:00:00 - Rule #377: 'l ^u' accepted as 'l^u'
+0:00:00:00 - Oldest still in use is now rule #376
+0:00:00:00 - Rule #378: 'l ^v' accepted as 'l^v'
+0:00:00:00 - Oldest still in use is now rule #377
+0:00:00:00 - Rule #379: 'l ^w' accepted as 'l^w'
+0:00:00:00 - Oldest still in use is now rule #378
+0:00:00:00 - Rule #380: 'l ^x' accepted as 'l^x'
+0:00:00:00 - Oldest still in use is now rule #379
+0:00:00:00 - Rule #381: 'l ^y' accepted as 'l^y'
+0:00:00:00 - Oldest still in use is now rule #380
+0:00:00:00 - Rule #382: 'l ^z' accepted as 'l^z'
+0:00:00:00 - Oldest still in use is now rule #381
+0:00:00:00 - Rule #383: 'l ^2' accepted as 'l^2'
+0:00:00:00 - Oldest still in use is now rule #382
+0:00:00:00 - Rule #384: 'l ^3' accepted as 'l^3'
+0:00:00:00 - Oldest still in use is now rule #383
+0:00:00:00 - Rule #385: 'l ^4' accepted as 'l^4'
+0:00:00:00 - Oldest still in use is now rule #384
+0:00:00:00 - Rule #386: 'l ^5' accepted as 'l^5'
+0:00:00:00 - Oldest still in use is now rule #385
+0:00:00:00 - Rule #387: 'l ^6' accepted as 'l^6'
+0:00:00:00 - Oldest still in use is now rule #386
+0:00:00:00 - Rule #388: 'l ^7' accepted as 'l^7'
+0:00:00:00 - Oldest still in use is now rule #387
+0:00:00:00 - Rule #389: 'l ^8' accepted as 'l^8'
+0:00:00:00 - Oldest still in use is now rule #388
+0:00:00:00 - Rule #390: 'l ^9' accepted as 'l^9'
+0:00:00:00 - Oldest still in use is now rule #389
+0:00:00:00 - Rule #391: 'l ^0' accepted as 'l^0'
+0:00:00:00 - Oldest still in use is now rule #390
+0:00:00:00 - Rule #392: '-c l Q ^A' accepted as 'lQ^A'
+0:00:00:00 - Oldest still in use is now rule #391
+0:00:00:00 - Rule #393: '-c l Q ^B' accepted as 'lQ^B'
+0:00:00:00 - Oldest still in use is now rule #392
+0:00:00:00 - Rule #394: '-c l Q ^C' accepted as 'lQ^C'
+0:00:00:00 - Oldest still in use is now rule #393
+0:00:00:00 - Rule #395: '-c l Q ^D' accepted as 'lQ^D'
+0:00:00:00 - Oldest still in use is now rule #394
+0:00:00:00 - Rule #396: '-c l Q ^E' accepted as 'lQ^E'
+0:00:00:00 - Oldest still in use is now rule #395
+0:00:00:00 - Rule #397: '-c l Q ^F' accepted as 'lQ^F'
+0:00:00:00 - Oldest still in use is now rule #396
+0:00:00:00 - Rule #398: '-c l Q ^G' accepted as 'lQ^G'
+0:00:00:00 - Oldest still in use is now rule #397
+0:00:00:00 - Rule #399: '-c l Q ^H' accepted as 'lQ^H'
+0:00:00:00 - Oldest still in use is now rule #398
+0:00:00:00 - Rule #400: '-c l Q ^I' accepted as 'lQ^I'
+0:00:00:00 - Oldest still in use is now rule #399
+0:00:00:00 - Rule #401: '-c l Q ^J' accepted as 'lQ^J'
+0:00:00:00 - Oldest still in use is now rule #400
+0:00:00:00 - Rule #402: '-c l Q ^K' accepted as 'lQ^K'
+0:00:00:00 - Oldest still in use is now rule #401
+0:00:00:00 - Rule #403: '-c l Q ^L' accepted as 'lQ^L'
+0:00:00:00 - Oldest still in use is now rule #402
+0:00:00:00 - Rule #404: '-c l Q ^M' accepted as 'lQ^M'
+0:00:00:00 - Oldest still in use is now rule #403
+0:00:00:00 - Rule #405: '-c l Q ^N' accepted as 'lQ^N'
+0:00:00:00 - Oldest still in use is now rule #404
+0:00:00:00 - Rule #406: '-c l Q ^O' accepted as 'lQ^O'
+0:00:00:00 - Oldest still in use is now rule #405
+0:00:00:00 - Rule #407: '-c l Q ^P' accepted as 'lQ^P'
+0:00:00:00 - Oldest still in use is now rule #406
+0:00:00:00 - Rule #408: '-c l Q ^Q' accepted as 'lQ^Q'
+0:00:00:00 - Oldest still in use is now rule #407
+0:00:00:00 - Rule #409: '-c l Q ^R' accepted as 'lQ^R'
+0:00:00:00 - Oldest still in use is now rule #408
+0:00:00:00 - Rule #410: '-c l Q ^S' accepted as 'lQ^S'
+0:00:00:00 - Oldest still in use is now rule #409
+0:00:00:00 - Rule #411: '-c l Q ^T' accepted as 'lQ^T'
+0:00:00:00 - Oldest still in use is now rule #410
+0:00:00:00 - Rule #412: '-c l Q ^U' accepted as 'lQ^U'
+0:00:00:00 - Oldest still in use is now rule #411
+0:00:00:00 - Rule #413: '-c l Q ^V' accepted as 'lQ^V'
+0:00:00:00 - Oldest still in use is now rule #412
+0:00:00:00 - Rule #414: '-c l Q ^W' accepted as 'lQ^W'
+0:00:00:00 - Oldest still in use is now rule #413
+0:00:00:00 - Rule #415: '-c l Q ^X' accepted as 'lQ^X'
+0:00:00:00 - Oldest still in use is now rule #414
+0:00:00:00 - Rule #416: '-c l Q ^Y' accepted as 'lQ^Y'
+0:00:00:00 - Oldest still in use is now rule #415
+0:00:00:00 - Rule #417: '-c l Q ^Z' accepted as 'lQ^Z'
+0:00:00:00 - Oldest still in use is now rule #416
+0:00:00:00 - Rule #418: '^A' accepted
+0:00:00:00 - Oldest still in use is now rule #417
+0:00:00:00 - Rule #419: '^B' accepted
+0:00:00:00 - Oldest still in use is now rule #418
+0:00:00:00 - Rule #420: '^C' accepted
+0:00:00:00 - Oldest still in use is now rule #419
+0:00:00:00 - Rule #421: '^D' accepted
+0:00:00:00 - Oldest still in use is now rule #420
+0:00:00:00 - Rule #422: '^E' accepted
+0:00:00:00 - Oldest still in use is now rule #421
+0:00:00:00 - Rule #423: '^F' accepted
+0:00:00:00 - Oldest still in use is now rule #422
+0:00:00:00 - Rule #424: '^G' accepted
+0:00:00:00 - Oldest still in use is now rule #423
+0:00:00:00 - Rule #425: '^H' accepted
+0:00:00:00 - Oldest still in use is now rule #424
+0:00:00:00 - Rule #426: '^I' accepted
+0:00:00:00 - Oldest still in use is now rule #425
+0:00:00:00 - Rule #427: '^J' accepted
+0:00:00:00 - Oldest still in use is now rule #426
+0:00:00:00 - Rule #428: '^K' accepted
+0:00:00:00 - Oldest still in use is now rule #427
+0:00:00:00 - Rule #429: '^L' accepted
+0:00:00:00 - Oldest still in use is now rule #428
+0:00:00:00 - Rule #430: '^M' accepted
+0:00:00:00 - Oldest still in use is now rule #429
+0:00:00:00 - Rule #431: '^N' accepted
+0:00:00:00 - Oldest still in use is now rule #430
+0:00:00:00 - Rule #432: '^O' accepted
+0:00:00:00 - Oldest still in use is now rule #431
+0:00:00:00 - Rule #433: '^P' accepted
+0:00:00:00 - Oldest still in use is now rule #432
+0:00:00:00 - Rule #434: '^Q' accepted
+0:00:00:00 - Oldest still in use is now rule #433
+0:00:00:00 - Rule #435: '^R' accepted
+0:00:00:00 - Oldest still in use is now rule #434
+0:00:00:00 - Rule #436: '^S' accepted
+0:00:00:00 - Oldest still in use is now rule #435
+0:00:00:00 - Rule #437: '^T' accepted
+0:00:00:00 - Oldest still in use is now rule #436
+0:00:00:00 - Rule #438: '^U' accepted
+0:00:00:00 - Oldest still in use is now rule #437
+0:00:00:00 - Rule #439: '^V' accepted
+0:00:00:00 - Oldest still in use is now rule #438
+0:00:00:00 - Rule #440: '^W' accepted
+0:00:00:00 - Oldest still in use is now rule #439
+0:00:00:00 - Rule #441: '^X' accepted
+0:00:00:00 - Oldest still in use is now rule #440
+0:00:00:00 - Rule #442: '^Y' accepted
+0:00:00:00 - Oldest still in use is now rule #441
+0:00:00:00 - Rule #443: '^Z' accepted
+0:00:00:00 - Oldest still in use is now rule #442
+0:00:00:00 - Rule #444: 'l ^"' accepted as 'l^"'
+0:00:00:00 - Oldest still in use is now rule #443
+0:00:00:00 - Rule #445: 'l ^#' accepted as 'l^#'
+0:00:00:00 - Oldest still in use is now rule #444
+0:00:00:00 - Rule #446: 'l ^$' accepted as 'l^$'
+0:00:00:00 - Oldest still in use is now rule #445
+0:00:00:00 - Rule #447: 'l ^%' accepted as 'l^%'
+0:00:00:00 - Oldest still in use is now rule #446
+0:00:00:00 - Rule #448: 'l ^&' accepted as 'l^&'
+0:00:00:00 - Oldest still in use is now rule #447
+0:00:00:00 - Rule #449: 'l ^'' accepted as 'l^''
+0:00:00:00 - Oldest still in use is now rule #448
+0:00:00:00 - Rule #450: 'l ^(' accepted as 'l^('
+0:00:00:00 - Oldest still in use is now rule #449
+0:00:00:00 - Rule #451: 'l ^)' accepted as 'l^)'
+0:00:00:00 - Oldest still in use is now rule #450
+0:00:00:00 - Rule #452: 'l ^*' accepted as 'l^*'
+0:00:00:00 - Oldest still in use is now rule #451
+0:00:00:00 - Rule #453: 'l ^+' accepted as 'l^+'
+0:00:00:00 - Oldest still in use is now rule #452
+0:00:00:00 - Rule #454: 'l ^,' accepted as 'l^,'
+0:00:00:00 - Oldest still in use is now rule #453
+0:00:00:00 - Rule #455: 'l ^-' accepted as 'l^-'
+0:00:00:00 - Oldest still in use is now rule #454
+0:00:00:00 - Rule #456: 'l ^.' accepted as 'l^.'
+0:00:00:00 - Oldest still in use is now rule #455
+0:00:00:00 - Rule #457: 'l ^/' accepted as 'l^/'
+0:00:00:00 - Oldest still in use is now rule #456
+0:00:00:00 - Rule #458: 'l ^:' accepted as 'l^:'
+0:00:00:00 - Oldest still in use is now rule #457
+0:00:00:00 - Rule #459: 'l ^;' accepted as 'l^;'
+0:00:00:00 - Oldest still in use is now rule #458
+0:00:00:00 - Rule #460: 'l ^<' accepted as 'l^<'
+0:00:00:00 - Oldest still in use is now rule #459
+0:00:00:00 - Rule #461: 'l ^=' accepted as 'l^='
+0:00:00:00 - Oldest still in use is now rule #460
+0:00:00:00 - Rule #462: 'l ^>' accepted as 'l^>'
+0:00:00:00 - Oldest still in use is now rule #461
+0:00:00:00 - Rule #463: 'l ^?' accepted as 'l^?'
+0:00:00:00 - Oldest still in use is now rule #462
+0:00:00:00 - Rule #464: 'l ^@' accepted as 'l^@'
+0:00:00:00 - Oldest still in use is now rule #463
+0:00:00:00 - Rule #465: 'l ^[' accepted as 'l^['
+0:00:00:00 - Oldest still in use is now rule #464
+0:00:00:00 - Rule #466: 'l ^\' accepted as 'l^\'
+0:00:00:00 - Oldest still in use is now rule #465
+0:00:00:00 - Rule #467: 'l ^]' accepted as 'l^]'
+0:00:00:00 - Oldest still in use is now rule #466
+0:00:00:00 - Rule #468: 'l ^^' accepted as 'l^^'
+0:00:00:00 - Oldest still in use is now rule #467
+0:00:00:00 - Rule #469: 'l ^_' accepted as 'l^_'
+0:00:00:00 - Oldest still in use is now rule #468
+0:00:00:00 - Rule #470: 'l ^`' accepted as 'l^`'
+0:00:00:00 - Oldest still in use is now rule #469
+0:00:00:00 - Rule #471: 'l ^{' accepted as 'l^{'
+0:00:00:00 - Oldest still in use is now rule #470
+0:00:00:00 - Rule #472: 'l ^|' accepted as 'l^|'
+0:00:00:00 - Oldest still in use is now rule #471
+0:00:00:00 - Rule #473: 'l ^}' accepted as 'l^}'
+0:00:00:00 - Oldest still in use is now rule #472
+0:00:00:00 - Rule #474: 'l ^~' accepted as 'l^~'
+0:00:00:00 - Oldest still in use is now rule #473
+0:00:00:00 - Rule #475: '-: <9 (?a l A0"the"' accepted as '<9(?alA0"the"'
+0:00:00:00 - Oldest still in use is now rule #474
+0:00:00:00 - Rule #476: '-: <9 (?a l A0"The"' accepted as '<9(?alA0"The"'
+0:00:00:00 - Oldest still in use is now rule #475
+0:00:00:00 - Rule #477: '-c <9 (?a c A0"the"' accepted as '<9(?acA0"the"'
+0:00:00:00 - Rule #478: '-c <9 (?a c A0"The"' accepted as '<9(?acA0"The"'
+0:00:00:00 - Oldest still in use is now rule #477
+0:00:00:00 - Rule #479: '-: <9 (?a l A0"amy"' accepted as '<9(?alA0"amy"'
+0:00:00:00 - Oldest still in use is now rule #478
+0:00:00:00 - Rule #480: '-: <9 (?a l A0"Amy"' accepted as '<9(?alA0"Amy"'
+0:00:00:00 - Oldest still in use is now rule #479
+0:00:00:00 - Rule #481: '-c <9 (?a c A0"amy"' accepted as '<9(?acA0"amy"'
+0:00:00:00 - Rule #482: '-c <9 (?a c A0"Amy"' accepted as '<9(?acA0"Amy"'
+0:00:00:00 - Oldest still in use is now rule #481
+0:00:00:00 - Rule #483: '-: <9 (?a l A0"mr"' accepted as '<9(?alA0"mr"'
+0:00:00:00 - Oldest still in use is now rule #482
+0:00:00:00 - Rule #484: '-: <9 (?a l A0"dr"' accepted as '<9(?alA0"dr"'
+0:00:00:00 - Oldest still in use is now rule #483
+0:00:00:00 - Rule #485: '-: <9 (?a l A0"Mr"' accepted as '<9(?alA0"Mr"'
+0:00:00:00 - Rule #486: '-: <9 (?a l A0"Dr"' accepted as '<9(?alA0"Dr"'
+0:00:00:00 - Oldest still in use is now rule #485
+0:00:00:00 - Rule #487: '-c <9 (?a c A0"mr"' accepted as '<9(?acA0"mr"'
+0:00:00:00 - Oldest still in use is now rule #486
+0:00:00:00 - Rule #488: '-c <9 (?a c A0"dr"' accepted as '<9(?acA0"dr"'
+0:00:00:00 - Oldest still in use is now rule #487
+0:00:00:00 - Rule #489: '-c <9 (?a c A0"Mr"' accepted as '<9(?acA0"Mr"'
+0:00:00:00 - Rule #490: '-c <9 (?a c A0"Dr"' accepted as '<9(?acA0"Dr"'
+0:00:00:00 - Oldest still in use is now rule #489
+0:00:00:00 - Rule #491: '-: <9 (?a l A0"mr."' accepted as '<9(?alA0"mr."'
+0:00:00:00 - Oldest still in use is now rule #490
+0:00:00:00 - Rule #492: '-: <9 (?a l A0"dr."' accepted as '<9(?alA0"dr."'
+0:00:00:00 - Oldest still in use is now rule #491
+0:00:00:00 - Rule #493: '-: <9 (?a l A0"Mr."' accepted as '<9(?alA0"Mr."'
+0:00:00:00 - Rule #494: '-: <9 (?a l A0"Dr."' accepted as '<9(?alA0"Dr."'
+0:00:00:00 - Oldest still in use is now rule #493
+0:00:00:00 - Rule #495: '-c <9 (?a c A0"mr."' accepted as '<9(?acA0"mr."'
+0:00:00:00 - Oldest still in use is now rule #494
+0:00:00:00 - Rule #496: '-c <9 (?a c A0"dr."' accepted as '<9(?acA0"dr."'
+0:00:00:00 - Oldest still in use is now rule #495
+0:00:00:00 - Rule #497: '-c <9 (?a c A0"Mr."' accepted as '<9(?acA0"Mr."'
+0:00:00:00 - Rule #498: '-c <9 (?a c A0"Dr."' accepted as '<9(?acA0"Dr."'
+0:00:00:00 - Oldest still in use is now rule #497
+0:00:00:00 - Rule #499: '-: <9 (?a l A0"__"' accepted as '<9(?alA0"__"'
+0:00:00:00 - Oldest still in use is now rule #498
+0:00:00:00 - Rule #500: '-c <9 (?a c A0"__"' accepted as '<9(?acA0"__"'
+0:00:00:00 - Oldest still in use is now rule #499
+0:00:00:00 - Rule #501: '<- !?A l p ^2' accepted as '<-!?Alp^2'
+0:00:00:00 - Rule #502: '<- !?A l p ^4' accepted as '<-!?Alp^4'
+0:00:00:00 - Oldest still in use is now rule #501
+0:00:00:00 - Rule #503: '<- !?A l p ^0' accepted as '<-!?Alp^0'
+0:00:00:00 - Oldest still in use is now rule #502
+0:00:00:00 - Rule #504: '<- !?A l p ^1' accepted as '<-!?Alp^1'
+0:00:00:00 - Oldest still in use is now rule #503
+0:00:00:00 - Rule #505: '<- !?A l p ^3' accepted as '<-!?Alp^3'
+0:00:00:00 - Rule #506: '<- !?A l p ^5' accepted as '<-!?Alp^5'
+0:00:00:00 - Oldest still in use is now rule #505
+0:00:00:00 - Rule #507: '<- !?A l p ^6' accepted as '<-!?Alp^6'
+0:00:00:00 - Oldest still in use is now rule #506
+0:00:00:00 - Rule #508: '<- !?A l p ^7' accepted as '<-!?Alp^7'
+0:00:00:00 - Oldest still in use is now rule #507
+0:00:00:00 - Rule #509: '<- !?A l p ^8' accepted as '<-!?Alp^8'
+0:00:00:00 - Rule #510: '<- !?A l p ^9' accepted as '<-!?Alp^9'
+0:00:00:00 - Oldest still in use is now rule #509
+0:00:00:00 - Rule #511: '-p-c (?a 2 (?a c 1 c' accepted as '(?a2(?ac1c'
+0:00:00:00 - Oldest still in use is now rule #510
+0:00:00:00 - Rule #512: '-p-c (?a 2 (?a c 1 l' accepted as '(?a2(?ac1l'
+0:00:00:00 - Rule #513: '-p 1 <- $  + l' accepted as '1<-$ +l'
+0:00:00:00 - Oldest still in use is now rule #512
+0:00:00:00 - Rule #514: '-p 1 <- $_ + l' accepted as '1<-$_+l'
+0:00:00:00 - Oldest still in use is now rule #513
+0:00:00:00 - Rule #515: '-p 1 <- $- + l' accepted as '1<-$-+l'
+0:00:00:00 - Oldest still in use is now rule #514
+0:00:00:00 - Rule #516: '-p-c 1 <- (?a c $  2 l' accepted as '1<-(?ac$ 2l'
+0:00:00:00 - Oldest still in use is now rule #515
+0:00:00:00 - Rule #517: '-p-c 1 <- (?a c $_ 2 l' accepted as '1<-(?ac$_2l'
+0:00:00:00 - Oldest still in use is now rule #516
+0:00:00:00 - Rule #518: '-p-c 1 <- (?a c $- 2 l' accepted as '1<-(?ac$-2l'
+0:00:00:00 - Oldest still in use is now rule #517
+0:00:00:00 - Rule #519: '-p-c 1 <- l $  2 (?a c' accepted as '1<-l$ 2(?ac'
+0:00:00:00 - Oldest still in use is now rule #518
+0:00:00:00 - Rule #520: '-p-c 1 <- l $_ 2 (?a c' accepted as '1<-l$_2(?ac'
+0:00:00:00 - Rule #521: '-p-c 1 <- l $- 2 (?a c' accepted as '1<-l$-2(?ac'
+0:00:00:00 - Oldest still in use is now rule #520
+0:00:00:00 - Rule #522: '-p-c 1 <- (?a c $  2 (?a c' accepted as '1<-(?ac$ 2(?ac'
+0:00:00:00 - Rule #523: '-p-c 1 <- (?a c $_ 2 (?a c' accepted as '1<-(?ac$_2(?ac'
+0:00:00:00 - Oldest still in use is now rule #522
+0:00:00:00 - Rule #524: '-p-c 1 <- (?a c $- 2 (?a c' accepted as '1<-(?ac$-2(?ac'
+0:00:00:00 - Rule #525: '-p-c 1 u 2 l' accepted as '1u2l'
+0:00:00:00 - Oldest still in use is now rule #524
+0:00:00:00 - Rule #526: '-p-: 1 r 2 l' accepted as '1r2l'
+0:00:00:00 - Oldest still in use is now rule #525
+0:00:00:00 - Rule #527: '-p-c 2 (?a c 1 u' accepted as '2(?ac1u'
+0:00:00:00 - Rule #528: '-p-c 2 (?a c 1 r' accepted as '2(?ac1r'
+0:00:00:00 - Oldest still in use is now rule #527
+0:00:00:00 - Rule #529: '-p-c 1 l 2 u' accepted as '1l2u'
+0:00:00:00 - Rule #530: '-p-: 1 l 2 r' accepted as '1l2r'
+0:00:00:00 - Oldest still in use is now rule #529
+0:00:00:00 - Rule #531: '-p-c 1 (?a c 2 u' accepted as '1(?ac2u'
+0:00:00:00 - Oldest still in use is now rule #530
+0:00:00:00 - Rule #532: '-p-c 1 (?a c 2 r' accepted as '1(?ac2r'
+0:00:00:00 - Oldest still in use is now rule #531
+0:00:00:00 - Rule #533: '-: (?a l {' accepted as '(?al{'
+0:00:00:00 - Oldest still in use is now rule #532
+0:00:00:00 - Rule #534: '-: (?a l }' accepted as '(?al}'
+0:00:00:00 - Oldest still in use is now rule #533
+0:00:00:00 - Rule #535: '-c (?a c {' accepted as '(?ac{'
+0:00:00:00 - Oldest still in use is now rule #534
+0:00:00:00 - Rule #536: '-c (?a c }' accepted as '(?ac}'
+0:00:00:00 - Oldest still in use is now rule #535
+0:00:00:00 - Rule #537: '-: (?a l { {' accepted as '(?al{{'
+0:00:00:00 - Oldest still in use is now rule #536
+0:00:00:00 - Rule #538: '-: (?a l } }' accepted as '(?al}}'
+0:00:00:00 - Oldest still in use is now rule #537
+0:00:00:00 - Rule #539: '-c (?a c { {' accepted as '(?ac{{'
+0:00:00:00 - Oldest still in use is now rule #538
+0:00:00:00 - Rule #540: '-c (?a c } }' accepted as '(?ac}}'
+0:00:00:00 - Oldest still in use is now rule #539
+0:00:00:00 - Rule #541: '-c <+ )?u l Tm' accepted as '<+)?ulTm'
+0:00:00:00 - Oldest still in use is now rule #540
+0:00:00:00 - Rule #542: '-c T0 Q M c Q l Q u Q C Q X0z0 'l' accepted as 'T0QMcQlQuQCQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #541
+0:00:00:00 - Rule #543: '-c T1 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T1QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #542
+0:00:00:00 - Rule #544: '-c T2 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T2QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #543
+0:00:00:00 - Rule #545: '-c T3 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T3QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #544
+0:00:00:00 - Rule #546: '-c T4 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T4QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #545
+0:00:00:00 - Rule #547: '-c T5 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T5QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #546
+0:00:00:00 - Rule #548: '-c T6 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T6QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #547
+0:00:00:00 - Rule #549: '-c T7 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T7QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #548
+0:00:00:00 - Rule #550: '-c T8 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T8QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #549
+0:00:00:00 - Rule #551: '-c T9 Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'T9QMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Rule #552: '-c TA Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'TAQMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #551
+0:00:00:00 - Rule #553: '-c TB Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'TBQMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Rule #554: '-c TC Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'TCQMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #553
+0:00:00:00 - Rule #555: '-c TD Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'TDQMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Rule #556: '-c TE Q M l Tm Q C Q u Q l Q c Q X0z0 'l' accepted as 'TEQMlTmQCQuQlQcQX0z0'l'
+0:00:00:00 - Rule #557: '-c l Q T1 Q M T1 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT1QMT1QlTmQCQuQX0z0'l'
+0:00:00:00 - Rule #558: '-c l Q T2 Q M T2 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT2QMT2QlTmQCQuQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #557
+0:00:00:00 - Rule #559: '-c l Q T3 Q M T3 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT3QMT3QlTmQCQuQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #558
+0:00:00:00 - Rule #560: '-c l Q T4 Q M T4 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT4QMT4QlTmQCQuQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #559
+0:00:00:00 - Rule #561: '-c l Q T5 Q M T5 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT5QMT5QlTmQCQuQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #560
+0:00:00:00 - Rule #562: '-c l Q T6 Q M T6 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT6QMT6QlTmQCQuQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #561
+0:00:00:00 - Rule #563: '-c l Q T7 Q M T7 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT7QMT7QlTmQCQuQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #562
+0:00:00:00 - Rule #564: '-c l Q T8 Q M T8 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT8QMT8QlTmQCQuQX0z0'l'
+0:00:00:00 - Rule #565: '-c l Q T9 Q M T9 Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQT9QMT9QlTmQCQuQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #564
+0:00:00:00 - Rule #566: '-c l Q TA Q M TA Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQTAQMTAQlTmQCQuQX0z0'l'
+0:00:00:00 - Rule #567: '-c l Q TB Q M TB Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQTBQMTBQlTmQCQuQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #566
+0:00:00:00 - Rule #568: '-c l Q TC Q M TC Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQTCQMTCQlTmQCQuQX0z0'l'
+0:00:00:00 - Rule #569: '-c l Q TD Q M TD Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQTDQMTDQlTmQCQuQX0z0'l'
+0:00:00:00 - Rule #570: '-c l Q TE Q M TE Q l Tm Q C Q u Q X0z0 'l' accepted as 'lQTEQMTEQlTmQCQuQX0z0'l'
+0:00:00:00 - Rule #571: '-c >2 <G %2?a l T0 M T2 T4 T6 T8 TA TC TE Q M l Tm Q X0z0 'l' accepted as '>2<G%2?alT0MT2T4T6T8TATCTEQMlTmQX0z0'l'
+0:00:00:00 - Rule #572: '-c >2 <G %2?a u T0 M T2 T4 T6 T8 TA TC TE Q M l Tm Q X0z0 'l' accepted as '>2<G%2?auT0MT2T4T6T8TATCTEQMlTmQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #571
+0:00:00:00 - Rule #573: '-c >2 /?l /?u t Q M c Q C Q l Tm Q X0z0 'l' accepted as '>2/?l/?utQMcQCQlTmQX0z0'l'
+0:00:00:00 - Oldest still in use is now rule #572
+0:00:00:00 - Rule #574: '>2 D1' accepted as '>2D1'
+0:00:00:00 - Rule #575: '>3 D2' accepted as '>3D2'
+0:00:00:00 - Oldest still in use is now rule #574
+0:00:00:00 - Rule #576: '>4 D3' accepted as '>4D3'
+0:00:00:00 - Oldest still in use is now rule #575
+0:00:00:00 - Rule #577: '>5 D4' accepted as '>5D4'
+0:00:00:00 - Oldest still in use is now rule #576
+0:00:00:00 - Rule #578: '>6 D5' accepted as '>6D5'
+0:00:00:00 - Oldest still in use is now rule #577
+0:00:00:00 - Rule #579: '>7 D6' accepted as '>7D6'
+0:00:00:00 - Oldest still in use is now rule #578
+0:00:00:00 - Rule #580: '>8 D7' accepted as '>8D7'
+0:00:00:00 - Oldest still in use is now rule #579
+0:00:00:00 - Rule #581: '>8 D8' accepted as '>8D8'
+0:00:00:00 - Rule #582: '>9 D9' accepted as '>9D9'
+0:00:00:00 - Oldest still in use is now rule #581
+0:00:00:00 - Rule #583: '>A DA' accepted as '>ADA'
+0:00:00:00 - Rule #584: '>B DB' accepted as '>BDB'
+0:00:00:00 - Oldest still in use is now rule #583
+0:00:00:00 - Rule #585: '>C DC' accepted as '>CDC'
+0:00:00:00 - Rule #586: '>D DD' accepted as '>DDD'
+0:00:00:00 - Rule #587: '>E DE' accepted as '>EDE'
+0:00:00:00 - Rule #588: '-c /?u >2 D1 l' accepted as '/?u>2D1l'
+0:00:00:00 - Rule #589: '-c /?u >3 D2 l' accepted as '/?u>3D2l'
+0:00:00:00 - Oldest still in use is now rule #588
+0:00:00:00 - Rule #590: '-c /?u >4 D3 l' accepted as '/?u>4D3l'
+0:00:00:00 - Oldest still in use is now rule #589
+0:00:00:00 - Rule #591: '-c /?u >5 D4 l' accepted as '/?u>5D4l'
+0:00:00:00 - Oldest still in use is now rule #590
+0:00:00:00 - Rule #592: '-c /?u >6 D5 l' accepted as '/?u>6D5l'
+0:00:00:00 - Oldest still in use is now rule #591
+0:00:00:00 - Rule #593: '-c /?u >7 D6 l' accepted as '/?u>7D6l'
+0:00:00:00 - Oldest still in use is now rule #592
+0:00:00:00 - Rule #594: '-c /?u >8 D7 l' accepted as '/?u>8D7l'
+0:00:00:00 - Oldest still in use is now rule #593
+0:00:00:00 - Rule #595: '-c /?u >8 D8 l' accepted as '/?u>8D8l'
+0:00:00:00 - Rule #596: '-c /?u >9 D9 l' accepted as '/?u>9D9l'
+0:00:00:00 - Oldest still in use is now rule #595
+0:00:00:00 - Rule #597: '-c /?u >A DA l' accepted as '/?u>ADAl'
+0:00:00:00 - Rule #598: '-c /?u >B DB l' accepted as '/?u>BDBl'
+0:00:00:00 - Oldest still in use is now rule #597
+0:00:00:00 - Rule #599: '-c /?u >C DC l' accepted as '/?u>CDCl'
+0:00:00:00 - Rule #600: '-c /?u >D DD l' accepted as '/?u>DDDl'
+0:00:00:00 - Rule #601: '-c /?u >E DE l' accepted as '/?u>EDEl'
+0:00:00:00 - Oldest still in use is now rule #600
+0:00:00:00 - Rule #602: '=1?a [ M c Q' accepted as '=1?a[McQ'
+0:00:00:00 - Oldest still in use is now rule #601
+0:00:00:00 - Rule #603: '-c (?a >1 D1 c' accepted as '(?a>1D1c'
+0:00:00:00 - Oldest still in use is now rule #602
+0:00:00:00 - Rule #604: '-c (?a >2 D2 c' accepted as '(?a>2D2c'
+0:00:00:00 - Oldest still in use is now rule #603
+0:00:00:00 - Rule #605: '-c (?a >3 D3 c' accepted as '(?a>3D3c'
+0:00:00:00 - Oldest still in use is now rule #604
+0:00:00:00 - Rule #606: '-c (?a >4 D4 c' accepted as '(?a>4D4c'
+0:00:00:00 - Oldest still in use is now rule #605
+0:00:00:00 - Rule #607: '-c (?a >5 D5 c' accepted as '(?a>5D5c'
+0:00:00:00 - Oldest still in use is now rule #606
+0:00:00:00 - Rule #608: '-c (?a >6 D6 c' accepted as '(?a>6D6c'
+0:00:00:00 - Oldest still in use is now rule #607
+0:00:00:00 - Rule #609: '-c (?a >7 D7 c' accepted as '(?a>7D7c'
+0:00:00:00 - Oldest still in use is now rule #608
+0:00:00:00 - Rule #610: '-c (?a >8 D8 c' accepted as '(?a>8D8c'
+0:00:00:00 - Oldest still in use is now rule #609
+0:00:00:00 - Rule #611: '-c (?a >9 D9 c' accepted as '(?a>9D9c'
+0:00:00:00 - Rule #612: '-c (?a >A DA c' accepted as '(?a>ADAc'
+0:00:00:00 - Oldest still in use is now rule #611
+0:00:00:00 - Rule #613: '-c (?a >B DB c' accepted as '(?a>BDBc'
+0:00:00:00 - Rule #614: '-c (?a >C DC c' accepted as '(?a>CDCc'
+0:00:00:00 - Oldest still in use is now rule #613
+0:00:00:00 - Rule #615: '-c (?a >D DD c' accepted as '(?a>DDDc'
+0:00:00:00 - Rule #616: '-c (?a >E DE c' accepted as '(?a>EDEc'
+0:00:00:00 - Rule #617: '-: >3 (?a l i1.' accepted as '>3(?ali1.'
+0:00:00:00 - Rule #618: '-: >3 (?a l i2.' accepted as '>3(?ali2.'
+0:00:00:00 - Oldest still in use is now rule #617
+0:00:00:00 - Rule #619: '-c >3 (?a c i1.' accepted as '>3(?aci1.'
+0:00:00:00 - Oldest still in use is now rule #618
+0:00:00:00 - Rule #620: '-c >3 (?a c i2.' accepted as '>3(?aci2.'
+0:00:00:00 - Oldest still in use is now rule #619
+0:00:00:00 - Rule #621: '<- l Az"10"' accepted as '<-lAz"10"'
+0:00:00:00 - Oldest still in use is now rule #620
+0:00:00:00 - Rule #622: '<- l Az"11"' accepted as '<-lAz"11"'
+0:00:00:00 - Oldest still in use is now rule #621
+0:00:00:00 - Rule #623: '<- l Az"12"' accepted as '<-lAz"12"'
+0:00:00:00 - Oldest still in use is now rule #622
+0:00:00:00 - Rule #624: '<- l Az"13"' accepted as '<-lAz"13"'
+0:00:00:00 - Oldest still in use is now rule #623
+0:00:00:00 - Rule #625: '<- l Az"14"' accepted as '<-lAz"14"'
+0:00:00:00 - Oldest still in use is now rule #624
+0:00:00:00 - Rule #626: '<- l Az"15"' accepted as '<-lAz"15"'
+0:00:00:00 - Oldest still in use is now rule #625
+0:00:00:00 - Rule #627: '<- l Az"16"' accepted as '<-lAz"16"'
+0:00:00:00 - Oldest still in use is now rule #626
+0:00:00:00 - Rule #628: '<- l Az"17"' accepted as '<-lAz"17"'
+0:00:00:00 - Oldest still in use is now rule #627
+0:00:00:00 - Rule #629: '<- l Az"18"' accepted as '<-lAz"18"'
+0:00:00:00 - Oldest still in use is now rule #628
+0:00:00:00 - Rule #630: '<- l Az"19"' accepted as '<-lAz"19"'
+0:00:00:00 - Oldest still in use is now rule #629
+0:00:00:00 - Rule #631: '<- l Az"90"' accepted as '<-lAz"90"'
+0:00:00:00 - Oldest still in use is now rule #630
+0:00:00:00 - Rule #632: '<- l Az"91"' accepted as '<-lAz"91"'
+0:00:00:00 - Oldest still in use is now rule #631
+0:00:00:00 - Rule #633: '<- l Az"92"' accepted as '<-lAz"92"'
+0:00:00:00 - Oldest still in use is now rule #632
+0:00:00:00 - Rule #634: '<- l Az"93"' accepted as '<-lAz"93"'
+0:00:00:00 - Oldest still in use is now rule #633
+0:00:00:00 - Rule #635: '<- l Az"94"' accepted as '<-lAz"94"'
+0:00:00:00 - Oldest still in use is now rule #634
+0:00:00:00 - Rule #636: '<- l Az"95"' accepted as '<-lAz"95"'
+0:00:00:00 - Oldest still in use is now rule #635
+0:00:00:00 - Rule #637: '<- l Az"96"' accepted as '<-lAz"96"'
+0:00:00:00 - Oldest still in use is now rule #636
+0:00:00:00 - Rule #638: '<- l Az"97"' accepted as '<-lAz"97"'
+0:00:00:00 - Oldest still in use is now rule #637
+0:00:00:00 - Rule #639: '<- l Az"98"' accepted as '<-lAz"98"'
+0:00:00:00 - Oldest still in use is now rule #638
+0:00:00:00 - Rule #640: '<- l Az"99"' accepted as '<-lAz"99"'
+0:00:00:00 - Oldest still in use is now rule #639
+0:00:00:00 - Rule #641: '<- l Az"00"' accepted as '<-lAz"00"'
+0:00:00:00 - Oldest still in use is now rule #640
+0:00:00:00 - Rule #642: '<- l Az"01"' accepted as '<-lAz"01"'
+0:00:00:00 - Oldest still in use is now rule #641
+0:00:00:00 - Rule #643: '<- l Az"02"' accepted as '<-lAz"02"'
+0:00:00:00 - Oldest still in use is now rule #642
+0:00:00:00 - Rule #644: '<- l Az"03"' accepted as '<-lAz"03"'
+0:00:00:00 - Oldest still in use is now rule #643
+0:00:00:00 - Rule #645: '<- l Az"04"' accepted as '<-lAz"04"'
+0:00:00:00 - Oldest still in use is now rule #644
+0:00:00:00 - Rule #646: '<- l Az"05"' accepted as '<-lAz"05"'
+0:00:00:00 - Oldest still in use is now rule #645
+0:00:00:00 - Rule #647: '<- l Az"06"' accepted as '<-lAz"06"'
+0:00:00:00 - Oldest still in use is now rule #646
+0:00:00:00 - Rule #648: '<- l Az"07"' accepted as '<-lAz"07"'
+0:00:00:00 - Oldest still in use is now rule #647
+0:00:00:00 - Rule #649: '<- l Az"08"' accepted as '<-lAz"08"'
+0:00:00:00 - Oldest still in use is now rule #648
+0:00:00:00 - Rule #650: '<- l Az"09"' accepted as '<-lAz"09"'
+0:00:00:00 - Oldest still in use is now rule #649
+0:00:00:00 - Rule #651: '-c <- (?a c Az"10"' accepted as '<-(?acAz"10"'
+0:00:00:00 - Oldest still in use is now rule #650
+0:00:00:00 - Rule #652: '-c <- (?a c Az"11"' accepted as '<-(?acAz"11"'
+0:00:00:00 - Oldest still in use is now rule #651
+0:00:00:00 - Rule #653: '-c <- (?a c Az"12"' accepted as '<-(?acAz"12"'
+0:00:00:00 - Oldest still in use is now rule #652
+0:00:00:00 - Rule #654: '-c <- (?a c Az"13"' accepted as '<-(?acAz"13"'
+0:00:00:00 - Oldest still in use is now rule #653
+0:00:00:00 - Rule #655: '-c <- (?a c Az"14"' accepted as '<-(?acAz"14"'
+0:00:00:00 - Oldest still in use is now rule #654
+0:00:00:00 - Rule #656: '-c <- (?a c Az"15"' accepted as '<-(?acAz"15"'
+0:00:00:00 - Oldest still in use is now rule #655
+0:00:00:00 - Rule #657: '-c <- (?a c Az"16"' accepted as '<-(?acAz"16"'
+0:00:00:00 - Oldest still in use is now rule #656
+0:00:00:00 - Rule #658: '-c <- (?a c Az"17"' accepted as '<-(?acAz"17"'
+0:00:00:00 - Oldest still in use is now rule #657
+0:00:00:00 - Rule #659: '-c <- (?a c Az"18"' accepted as '<-(?acAz"18"'
+0:00:00:00 - Oldest still in use is now rule #658
+0:00:00:00 - Rule #660: '-c <- (?a c Az"19"' accepted as '<-(?acAz"19"'
+0:00:00:00 - Oldest still in use is now rule #659
+0:00:00:00 - Rule #661: '-c <- (?a c Az"90"' accepted as '<-(?acAz"90"'
+0:00:00:00 - Oldest still in use is now rule #660
+0:00:00:00 - Rule #662: '-c <- (?a c Az"91"' accepted as '<-(?acAz"91"'
+0:00:00:00 - Oldest still in use is now rule #661
+0:00:00:00 - Rule #663: '-c <- (?a c Az"92"' accepted as '<-(?acAz"92"'
+0:00:00:00 - Oldest still in use is now rule #662
+0:00:00:00 - Rule #664: '-c <- (?a c Az"93"' accepted as '<-(?acAz"93"'
+0:00:00:00 - Oldest still in use is now rule #663
+0:00:00:00 - Rule #665: '-c <- (?a c Az"94"' accepted as '<-(?acAz"94"'
+0:00:00:00 - Oldest still in use is now rule #664
+0:00:00:00 - Rule #666: '-c <- (?a c Az"95"' accepted as '<-(?acAz"95"'
+0:00:00:00 - Oldest still in use is now rule #665
+0:00:00:00 - Rule #667: '-c <- (?a c Az"96"' accepted as '<-(?acAz"96"'
+0:00:00:00 - Oldest still in use is now rule #666
+0:00:00:00 - Rule #668: '-c <- (?a c Az"97"' accepted as '<-(?acAz"97"'
+0:00:00:00 - Oldest still in use is now rule #667
+0:00:00:00 - Rule #669: '-c <- (?a c Az"98"' accepted as '<-(?acAz"98"'
+0:00:00:00 - Oldest still in use is now rule #668
+0:00:00:00 - Rule #670: '-c <- (?a c Az"99"' accepted as '<-(?acAz"99"'
+0:00:00:00 - Oldest still in use is now rule #669
+0:00:00:00 - Rule #671: '-c <- (?a c Az"00"' accepted as '<-(?acAz"00"'
+0:00:00:00 - Oldest still in use is now rule #670
+0:00:00:00 - Rule #672: '-c <- (?a c Az"01"' accepted as '<-(?acAz"01"'
+0:00:00:00 - Oldest still in use is now rule #671
+0:00:00:00 - Rule #673: '-c <- (?a c Az"02"' accepted as '<-(?acAz"02"'
+0:00:00:00 - Oldest still in use is now rule #672
+0:00:00:00 - Rule #674: '-c <- (?a c Az"03"' accepted as '<-(?acAz"03"'
+0:00:00:00 - Oldest still in use is now rule #673
+0:00:00:00 - Rule #675: '-c <- (?a c Az"04"' accepted as '<-(?acAz"04"'
+0:00:00:00 - Oldest still in use is now rule #674
+0:00:00:00 - Rule #676: '-c <- (?a c Az"05"' accepted as '<-(?acAz"05"'
+0:00:00:00 - Oldest still in use is now rule #675
+0:00:00:00 - Rule #677: '-c <- (?a c Az"06"' accepted as '<-(?acAz"06"'
+0:00:00:00 - Oldest still in use is now rule #676
+0:00:00:00 - Rule #678: '-c <- (?a c Az"07"' accepted as '<-(?acAz"07"'
+0:00:00:00 - Oldest still in use is now rule #677
+0:00:00:00 - Rule #679: '-c <- (?a c Az"08"' accepted as '<-(?acAz"08"'
+0:00:00:00 - Oldest still in use is now rule #678
+0:00:00:00 - Rule #680: '-c <- (?a c Az"09"' accepted as '<-(?acAz"09"'
+0:00:00:00 - Oldest still in use is now rule #679
+0:00:00:00 - Rule #681: '<- l Az"70"' accepted as '<-lAz"70"'
+0:00:00:00 - Oldest still in use is now rule #680
+0:00:00:00 - Rule #682: '<- l Az"71"' accepted as '<-lAz"71"'
+0:00:00:00 - Oldest still in use is now rule #681
+0:00:00:00 - Rule #683: '<- l Az"72"' accepted as '<-lAz"72"'
+0:00:00:00 - Oldest still in use is now rule #682
+0:00:00:00 - Rule #684: '<- l Az"73"' accepted as '<-lAz"73"'
+0:00:00:00 - Oldest still in use is now rule #683
+0:00:00:00 - Rule #685: '<- l Az"74"' accepted as '<-lAz"74"'
+0:00:00:00 - Oldest still in use is now rule #684
+0:00:00:00 - Rule #686: '<- l Az"75"' accepted as '<-lAz"75"'
+0:00:00:00 - Oldest still in use is now rule #685
+0:00:00:00 - Rule #687: '<- l Az"76"' accepted as '<-lAz"76"'
+0:00:00:00 - Oldest still in use is now rule #686
+0:00:00:00 - Rule #688: '<- l Az"77"' accepted as '<-lAz"77"'
+0:00:00:00 - Oldest still in use is now rule #687
+0:00:00:00 - Rule #689: '<- l Az"78"' accepted as '<-lAz"78"'
+0:00:00:00 - Oldest still in use is now rule #688
+0:00:00:00 - Rule #690: '<- l Az"79"' accepted as '<-lAz"79"'
+0:00:00:00 - Oldest still in use is now rule #689
+0:00:00:00 - Rule #691: '<- l Az"80"' accepted as '<-lAz"80"'
+0:00:00:00 - Oldest still in use is now rule #690
+0:00:00:00 - Rule #692: '<- l Az"81"' accepted as '<-lAz"81"'
+0:00:00:00 - Oldest still in use is now rule #691
+0:00:00:00 - Rule #693: '<- l Az"82"' accepted as '<-lAz"82"'
+0:00:00:00 - Oldest still in use is now rule #692
+0:00:00:00 - Rule #694: '<- l Az"83"' accepted as '<-lAz"83"'
+0:00:00:00 - Oldest still in use is now rule #693
+0:00:00:00 - Rule #695: '<- l Az"84"' accepted as '<-lAz"84"'
+0:00:00:00 - Oldest still in use is now rule #694
+0:00:00:00 - Rule #696: '<- l Az"85"' accepted as '<-lAz"85"'
+0:00:00:00 - Oldest still in use is now rule #695
+0:00:00:00 - Rule #697: '<- l Az"86"' accepted as '<-lAz"86"'
+0:00:00:00 - Oldest still in use is now rule #696
+0:00:00:00 - Rule #698: '<- l Az"87"' accepted as '<-lAz"87"'
+0:00:00:00 - Oldest still in use is now rule #697
+0:00:00:00 - Rule #699: '<- l Az"88"' accepted as '<-lAz"88"'
+0:00:00:00 - Oldest still in use is now rule #698
+0:00:00:00 - Rule #700: '<- l Az"89"' accepted as '<-lAz"89"'
+0:00:00:00 - Oldest still in use is now rule #699
+0:00:00:00 - Rule #701: '<- l Az"20"' accepted as '<-lAz"20"'
+0:00:00:00 - Oldest still in use is now rule #700
+0:00:00:00 - Rule #702: '<- l Az"21"' accepted as '<-lAz"21"'
+0:00:00:00 - Oldest still in use is now rule #701
+0:00:00:00 - Rule #703: '<- l Az"22"' accepted as '<-lAz"22"'
+0:00:00:00 - Oldest still in use is now rule #702
+0:00:00:00 - Rule #704: '<- l Az"23"' accepted as '<-lAz"23"'
+0:00:00:00 - Oldest still in use is now rule #703
+0:00:00:00 - Rule #705: '<- l Az"24"' accepted as '<-lAz"24"'
+0:00:00:00 - Oldest still in use is now rule #704
+0:00:00:00 - Rule #706: '<- l Az"25"' accepted as '<-lAz"25"'
+0:00:00:00 - Oldest still in use is now rule #705
+0:00:00:00 - Rule #707: '<- l Az"26"' accepted as '<-lAz"26"'
+0:00:00:00 - Oldest still in use is now rule #706
+0:00:00:00 - Rule #708: '<- l Az"27"' accepted as '<-lAz"27"'
+0:00:00:00 - Oldest still in use is now rule #707
+0:00:00:00 - Rule #709: '<- l Az"28"' accepted as '<-lAz"28"'
+0:00:00:00 - Oldest still in use is now rule #708
+0:00:00:00 - Rule #710: '<- l Az"29"' accepted as '<-lAz"29"'
+0:00:00:00 - Oldest still in use is now rule #709
+0:00:00:00 - Rule #711: '-c <- (?a c Az"70"' accepted as '<-(?acAz"70"'
+0:00:00:00 - Oldest still in use is now rule #710
+0:00:00:00 - Rule #712: '-c <- (?a c Az"71"' accepted as '<-(?acAz"71"'
+0:00:00:00 - Oldest still in use is now rule #711
+0:00:00:00 - Rule #713: '-c <- (?a c Az"72"' accepted as '<-(?acAz"72"'
+0:00:00:00 - Oldest still in use is now rule #712
+0:00:00:00 - Rule #714: '-c <- (?a c Az"73"' accepted as '<-(?acAz"73"'
+0:00:00:00 - Oldest still in use is now rule #713
+0:00:00:00 - Rule #715: '-c <- (?a c Az"74"' accepted as '<-(?acAz"74"'
+0:00:00:00 - Oldest still in use is now rule #714
+0:00:00:00 - Rule #716: '-c <- (?a c Az"75"' accepted as '<-(?acAz"75"'
+0:00:00:00 - Oldest still in use is now rule #715
+0:00:00:00 - Rule #717: '-c <- (?a c Az"76"' accepted as '<-(?acAz"76"'
+0:00:00:00 - Oldest still in use is now rule #716
+0:00:00:00 - Rule #718: '-c <- (?a c Az"77"' accepted as '<-(?acAz"77"'
+0:00:00:00 - Oldest still in use is now rule #717
+0:00:00:00 - Rule #719: '-c <- (?a c Az"78"' accepted as '<-(?acAz"78"'
+0:00:00:00 - Oldest still in use is now rule #718
+0:00:00:00 - Rule #720: '-c <- (?a c Az"79"' accepted as '<-(?acAz"79"'
+0:00:00:00 - Oldest still in use is now rule #719
+0:00:00:00 - Rule #721: '-c <- (?a c Az"80"' accepted as '<-(?acAz"80"'
+0:00:00:00 - Oldest still in use is now rule #720
+0:00:00:00 - Rule #722: '-c <- (?a c Az"81"' accepted as '<-(?acAz"81"'
+0:00:00:00 - Oldest still in use is now rule #721
+0:00:00:00 - Rule #723: '-c <- (?a c Az"82"' accepted as '<-(?acAz"82"'
+0:00:00:00 - Oldest still in use is now rule #722
+0:00:00:00 - Rule #724: '-c <- (?a c Az"83"' accepted as '<-(?acAz"83"'
+0:00:00:00 - Oldest still in use is now rule #723
+0:00:00:00 - Rule #725: '-c <- (?a c Az"84"' accepted as '<-(?acAz"84"'
+0:00:00:00 - Oldest still in use is now rule #724
+0:00:00:00 - Rule #726: '-c <- (?a c Az"85"' accepted as '<-(?acAz"85"'
+0:00:00:00 - Oldest still in use is now rule #725
+0:00:00:00 - Rule #727: '-c <- (?a c Az"86"' accepted as '<-(?acAz"86"'
+0:00:00:00 - Oldest still in use is now rule #726
+0:00:00:00 - Rule #728: '-c <- (?a c Az"87"' accepted as '<-(?acAz"87"'
+0:00:00:00 - Oldest still in use is now rule #727
+0:00:00:00 - Rule #729: '-c <- (?a c Az"88"' accepted as '<-(?acAz"88"'
+0:00:00:00 - Oldest still in use is now rule #728
+0:00:00:00 - Rule #730: '-c <- (?a c Az"89"' accepted as '<-(?acAz"89"'
+0:00:00:00 - Oldest still in use is now rule #729
+0:00:00:00 - Rule #731: '-c <- (?a c Az"20"' accepted as '<-(?acAz"20"'
+0:00:00:00 - Oldest still in use is now rule #730
+0:00:00:00 - Rule #732: '-c <- (?a c Az"21"' accepted as '<-(?acAz"21"'
+0:00:00:00 - Oldest still in use is now rule #731
+0:00:00:00 - Rule #733: '-c <- (?a c Az"22"' accepted as '<-(?acAz"22"'
+0:00:00:00 - Oldest still in use is now rule #732
+0:00:00:00 - Rule #734: '-c <- (?a c Az"23"' accepted as '<-(?acAz"23"'
+0:00:00:00 - Oldest still in use is now rule #733
+0:00:00:00 - Rule #735: '-c <- (?a c Az"24"' accepted as '<-(?acAz"24"'
+0:00:00:00 - Oldest still in use is now rule #734
+0:00:00:00 - Rule #736: '-c <- (?a c Az"25"' accepted as '<-(?acAz"25"'
+0:00:00:00 - Oldest still in use is now rule #735
+0:00:00:00 - Rule #737: '-c <- (?a c Az"26"' accepted as '<-(?acAz"26"'
+0:00:00:00 - Oldest still in use is now rule #736
+0:00:00:00 - Rule #738: '-c <- (?a c Az"27"' accepted as '<-(?acAz"27"'
+0:00:00:00 - Oldest still in use is now rule #737
+0:00:00:00 - Rule #739: '-c <- (?a c Az"28"' accepted as '<-(?acAz"28"'
+0:00:00:00 - Oldest still in use is now rule #738
+0:00:00:00 - Rule #740: '-c <- (?a c Az"29"' accepted as '<-(?acAz"29"'
+0:00:00:00 - Oldest still in use is now rule #739
+0:00:00:00 - Rule #741: '<* l $A' accepted as '<*l$A'
+0:00:00:00 - Oldest still in use is now rule #740
+0:00:00:00 - Rule #742: '<* l $B' accepted as '<*l$B'
+0:00:00:00 - Oldest still in use is now rule #741
+0:00:00:00 - Rule #743: '<* l $C' accepted as '<*l$C'
+0:00:00:00 - Oldest still in use is now rule #742
+0:00:00:00 - Rule #744: '<* l $D' accepted as '<*l$D'
+0:00:00:00 - Oldest still in use is now rule #743
+0:00:00:00 - Rule #745: '<* l $E' accepted as '<*l$E'
+0:00:00:00 - Oldest still in use is now rule #744
+0:00:00:00 - Rule #746: '<* l $F' accepted as '<*l$F'
+0:00:00:00 - Oldest still in use is now rule #745
+0:00:00:00 - Rule #747: '<* l $G' accepted as '<*l$G'
+0:00:00:00 - Oldest still in use is now rule #746
+0:00:00:00 - Rule #748: '<* l $H' accepted as '<*l$H'
+0:00:00:00 - Oldest still in use is now rule #747
+0:00:00:00 - Rule #749: '<* l $I' accepted as '<*l$I'
+0:00:00:00 - Oldest still in use is now rule #748
+0:00:00:00 - Rule #750: '<* l $J' accepted as '<*l$J'
+0:00:00:00 - Oldest still in use is now rule #749
+0:00:00:00 - Rule #751: '<* l $K' accepted as '<*l$K'
+0:00:00:00 - Oldest still in use is now rule #750
+0:00:00:00 - Rule #752: '<* l $L' accepted as '<*l$L'
+0:00:00:00 - Oldest still in use is now rule #751
+0:00:00:00 - Rule #753: '<* l $M' accepted as '<*l$M'
+0:00:00:00 - Oldest still in use is now rule #752
+0:00:00:00 - Rule #754: '<* l $N' accepted as '<*l$N'
+0:00:00:00 - Oldest still in use is now rule #753
+0:00:00:00 - Rule #755: '<* l $O' accepted as '<*l$O'
+0:00:00:00 - Oldest still in use is now rule #754
+0:00:00:00 - Rule #756: '<* l $P' accepted as '<*l$P'
+0:00:00:00 - Oldest still in use is now rule #755
+0:00:00:00 - Rule #757: '<* l $Q' accepted as '<*l$Q'
+0:00:00:00 - Oldest still in use is now rule #756
+0:00:00:00 - Rule #758: '<* l $R' accepted as '<*l$R'
+0:00:00:00 - Oldest still in use is now rule #757
+0:00:00:00 - Rule #759: '<* l $S' accepted as '<*l$S'
+0:00:00:00 - Oldest still in use is now rule #758
+0:00:00:00 - Rule #760: '<* l $T' accepted as '<*l$T'
+0:00:00:00 - Oldest still in use is now rule #759
+0:00:00:00 - Rule #761: '<* l $U' accepted as '<*l$U'
+0:00:00:00 - Oldest still in use is now rule #760
+0:00:00:00 - Rule #762: '<* l $V' accepted as '<*l$V'
+0:00:00:00 - Oldest still in use is now rule #761
+0:00:00:00 - Rule #763: '<* l $W' accepted as '<*l$W'
+0:00:00:00 - Oldest still in use is now rule #762
+0:00:00:00 - Rule #764: '<* l $X' accepted as '<*l$X'
+0:00:00:00 - Oldest still in use is now rule #763
+0:00:00:00 - Rule #765: '<* l $Y' accepted as '<*l$Y'
+0:00:00:00 - Oldest still in use is now rule #764
+0:00:00:00 - Rule #766: '<* l $Z' accepted as '<*l$Z'
+0:00:00:00 - Oldest still in use is now rule #765
+0:00:00:00 - Rule #767: '-c <* (?a c $A' accepted as '<*(?ac$A'
+0:00:00:00 - Oldest still in use is now rule #766
+0:00:00:00 - Rule #768: '-c <* (?a c $B' accepted as '<*(?ac$B'
+0:00:00:00 - Oldest still in use is now rule #767
+0:00:00:00 - Rule #769: '-c <* (?a c $C' accepted as '<*(?ac$C'
+0:00:00:00 - Oldest still in use is now rule #768
+0:00:00:00 - Rule #770: '-c <* (?a c $D' accepted as '<*(?ac$D'
+0:00:00:00 - Oldest still in use is now rule #769
+0:00:00:00 - Rule #771: '-c <* (?a c $E' accepted as '<*(?ac$E'
+0:00:00:00 - Oldest still in use is now rule #770
+0:00:00:00 - Rule #772: '-c <* (?a c $F' accepted as '<*(?ac$F'
+0:00:00:00 - Oldest still in use is now rule #771
+0:00:00:00 - Rule #773: '-c <* (?a c $G' accepted as '<*(?ac$G'
+0:00:00:00 - Oldest still in use is now rule #772
+0:00:00:00 - Rule #774: '-c <* (?a c $H' accepted as '<*(?ac$H'
+0:00:00:00 - Oldest still in use is now rule #773
+0:00:00:00 - Rule #775: '-c <* (?a c $I' accepted as '<*(?ac$I'
+0:00:00:00 - Oldest still in use is now rule #774
+0:00:00:00 - Rule #776: '-c <* (?a c $J' accepted as '<*(?ac$J'
+0:00:00:00 - Oldest still in use is now rule #775
+0:00:00:00 - Rule #777: '-c <* (?a c $K' accepted as '<*(?ac$K'
+0:00:00:00 - Oldest still in use is now rule #776
+0:00:00:00 - Rule #778: '-c <* (?a c $L' accepted as '<*(?ac$L'
+0:00:00:00 - Oldest still in use is now rule #777
+0:00:00:00 - Rule #779: '-c <* (?a c $M' accepted as '<*(?ac$M'
+0:00:00:00 - Oldest still in use is now rule #778
+0:00:00:00 - Rule #780: '-c <* (?a c $N' accepted as '<*(?ac$N'
+0:00:00:00 - Oldest still in use is now rule #779
+0:00:00:00 - Rule #781: '-c <* (?a c $O' accepted as '<*(?ac$O'
+0:00:00:00 - Oldest still in use is now rule #780
+0:00:00:00 - Rule #782: '-c <* (?a c $P' accepted as '<*(?ac$P'
+0:00:00:00 - Oldest still in use is now rule #781
+0:00:00:00 - Rule #783: '-c <* (?a c $Q' accepted as '<*(?ac$Q'
+0:00:00:00 - Oldest still in use is now rule #782
+0:00:00:00 - Rule #784: '-c <* (?a c $R' accepted as '<*(?ac$R'
+0:00:00:00 - Oldest still in use is now rule #783
+0:00:00:00 - Rule #785: '-c <* (?a c $S' accepted as '<*(?ac$S'
+0:00:00:00 - Oldest still in use is now rule #784
+0:00:00:00 - Rule #786: '-c <* (?a c $T' accepted as '<*(?ac$T'
+0:00:00:00 - Oldest still in use is now rule #785
+0:00:00:00 - Rule #787: '-c <* (?a c $U' accepted as '<*(?ac$U'
+0:00:00:00 - Oldest still in use is now rule #786
+0:00:00:00 - Rule #788: '-c <* (?a c $V' accepted as '<*(?ac$V'
+0:00:00:00 - Oldest still in use is now rule #787
+0:00:00:00 - Rule #789: '-c <* (?a c $W' accepted as '<*(?ac$W'
+0:00:00:00 - Oldest still in use is now rule #788
+0:00:00:00 - Rule #790: '-c <* (?a c $X' accepted as '<*(?ac$X'
+0:00:00:00 - Oldest still in use is now rule #789
+0:00:00:00 - Rule #791: '-c <* (?a c $Y' accepted as '<*(?ac$Y'
+0:00:00:00 - Oldest still in use is now rule #790
+0:00:00:00 - Rule #792: '-c <* (?a c $Z' accepted as '<*(?ac$Z'
+0:00:00:00 - Oldest still in use is now rule #791
+0:00:00:00 - Rule #793: '-c u /I sIi' accepted as 'u/IsIi'
+0:00:00:00 - Oldest still in use is now rule #792
+0:00:00:00 - Rule #794: '%2?a C Q' accepted as '%2?aCQ'
+0:00:00:00 - Rule #795: '/?A S Q' accepted as '/?ASQ'
+0:00:00:00 - Oldest still in use is now rule #794
+0:00:00:00 - Rule #796: '-c /?v V Q' accepted as '/?vVQ'
+0:00:00:00 - Oldest still in use is now rule #795
+0:00:00:00 - Rule #797: ':R Q' accepted as 'RQ'
+0:00:00:00 - Oldest still in use is now rule #796
+0:00:00:00 - Rule #798: ':L Q' accepted as 'LQ'
+0:00:00:00 - Oldest still in use is now rule #797
+0:00:00:00 - Rule #799: 'l Q R' accepted as 'lQR'
+0:00:00:00 - Oldest still in use is now rule #798
+0:00:00:00 - Rule #800: 'l Q L' accepted as 'lQL'
+0:00:00:00 - Oldest still in use is now rule #799
+0:00:00:00 - Rule #801: '-c (?a c Q R' accepted as '(?acQR'
+0:00:00:00 - Oldest still in use is now rule #800
+0:00:00:00 - Rule #802: '-c (?a c Q L' accepted as '(?acQL'
+0:00:00:00 - Oldest still in use is now rule #801
+0:00:00:00 - Rule #803: ':R R Q' accepted as 'RRQ'
+0:00:00:00 - Oldest still in use is now rule #802
+0:00:00:00 - Rule #804: ':L L Q' accepted as 'LLQ'
+0:00:00:00 - Oldest still in use is now rule #803
+0:00:00:00 - Rule #805: '<- l ^1 $1' accepted as '<-l^1$1'
+0:00:00:00 - Oldest still in use is now rule #804
+0:00:00:00 - Rule #806: '<- l ^! $!' accepted as '<-l^!$!'
+0:00:00:00 - Oldest still in use is now rule #805
+0:00:00:00 - Rule #807: '<- l ^@ $@' accepted as '<-l^@$@'
+0:00:00:00 - Oldest still in use is now rule #806
+0:00:00:00 - Rule #808: '<- l ^# $#' accepted as '<-l^#$#'
+0:00:00:00 - Oldest still in use is now rule #807
+0:00:00:00 - Rule #809: '<- l ^$ $$' accepted as '<-l^$$$'
+0:00:00:00 - Oldest still in use is now rule #808
+0:00:00:00 - Rule #810: '<- l ^% $%' accepted as '<-l^%$%'
+0:00:00:00 - Oldest still in use is now rule #809
+0:00:00:00 - Rule #811: '<- l ^^ $^' accepted as '<-l^^$^'
+0:00:00:00 - Oldest still in use is now rule #810
+0:00:00:00 - Rule #812: '<- l ^& $&' accepted as '<-l^&$&'
+0:00:00:00 - Oldest still in use is now rule #811
+0:00:00:00 - Rule #813: '<- l ^* $*' accepted as '<-l^*$*'
+0:00:00:00 - Oldest still in use is now rule #812
+0:00:00:00 - Rule #814: '<- l ^- $-' accepted as '<-l^-$-'
+0:00:00:00 - Oldest still in use is now rule #813
+0:00:00:00 - Rule #815: '<- l ^= $=' accepted as '<-l^=$='
+0:00:00:00 - Oldest still in use is now rule #814
+0:00:00:00 - Rule #816: '<- l ^_ $_' accepted as '<-l^_$_'
+0:00:00:00 - Oldest still in use is now rule #815
+0:00:00:00 - Rule #817: '<- l ^+ $+' accepted as '<-l^+$+'
+0:00:00:00 - Oldest still in use is now rule #816
+0:00:00:00 - Rule #818: '<- l ^. $.' accepted as '<-l^.$.'
+0:00:00:00 - Oldest still in use is now rule #817
+0:00:00:00 - Rule #819: '<- l ^? $?' accepted as '<-l^?$?'
+0:00:00:00 - Oldest still in use is now rule #818
+0:00:00:00 - Rule #820: '<- l ^| $|' accepted as '<-l^|$|'
+0:00:00:00 - Oldest still in use is now rule #819
+0:00:00:00 - Rule #821: '<- l ^: $:' accepted as '<-l^:$:'
+0:00:00:00 - Oldest still in use is now rule #820
+0:00:00:00 - Rule #822: '<- l ^' $'' accepted as '<-l^'$''
+0:00:00:00 - Oldest still in use is now rule #821
+0:00:00:00 - Rule #823: '<- l ^" $"' accepted as '<-l^"$"'
+0:00:00:00 - Oldest still in use is now rule #822
+0:00:00:00 - Rule #824: '<- l ^( $)' accepted as '<-l^($)'
+0:00:00:00 - Oldest still in use is now rule #823
+0:00:00:00 - Rule #825: '<- l ^{ $}' accepted as '<-l^{$}'
+0:00:00:00 - Oldest still in use is now rule #824
+0:00:00:00 - Rule #826: '<- l ^[ $]' accepted as '<-l^[$]'
+0:00:00:00 - Oldest still in use is now rule #825
+0:00:00:00 - Rule #827: '<- l ^< $>' accepted as '<-l^<$>'
+0:00:00:00 - Oldest still in use is now rule #826
+0:00:00:00 - Rule #828: '<- l Az"60"' accepted as '<-lAz"60"'
+0:00:00:00 - Oldest still in use is now rule #827
+0:00:00:00 - Rule #829: '<- l Az"61"' accepted as '<-lAz"61"'
+0:00:00:00 - Oldest still in use is now rule #828
+0:00:00:00 - Rule #830: '<- l Az"62"' accepted as '<-lAz"62"'
+0:00:00:00 - Oldest still in use is now rule #829
+0:00:00:00 - Rule #831: '<- l Az"63"' accepted as '<-lAz"63"'
+0:00:00:00 - Oldest still in use is now rule #830
+0:00:00:00 - Rule #832: '<- l Az"64"' accepted as '<-lAz"64"'
+0:00:00:00 - Oldest still in use is now rule #831
+0:00:00:00 - Rule #833: '<- l Az"65"' accepted as '<-lAz"65"'
+0:00:00:00 - Oldest still in use is now rule #832
+0:00:00:00 - Rule #834: '<- l Az"66"' accepted as '<-lAz"66"'
+0:00:00:00 - Oldest still in use is now rule #833
+0:00:00:00 - Rule #835: '<- l Az"67"' accepted as '<-lAz"67"'
+0:00:00:00 - Oldest still in use is now rule #834
+0:00:00:00 - Rule #836: '<- l Az"68"' accepted as '<-lAz"68"'
+0:00:00:00 - Oldest still in use is now rule #835
+0:00:00:00 - Rule #837: '<- l Az"69"' accepted as '<-lAz"69"'
+0:00:00:00 - Oldest still in use is now rule #836
+0:00:00:00 - Rule #838: '<- l Az"30"' accepted as '<-lAz"30"'
+0:00:00:00 - Oldest still in use is now rule #837
+0:00:00:00 - Rule #839: '<- l Az"31"' accepted as '<-lAz"31"'
+0:00:00:00 - Oldest still in use is now rule #838
+0:00:00:00 - Rule #840: '<- l Az"32"' accepted as '<-lAz"32"'
+0:00:00:00 - Oldest still in use is now rule #839
+0:00:00:00 - Rule #841: '<- l Az"33"' accepted as '<-lAz"33"'
+0:00:00:00 - Oldest still in use is now rule #840
+0:00:00:00 - Rule #842: '<- l Az"34"' accepted as '<-lAz"34"'
+0:00:00:00 - Oldest still in use is now rule #841
+0:00:00:00 - Rule #843: '<- l Az"35"' accepted as '<-lAz"35"'
+0:00:00:00 - Oldest still in use is now rule #842
+0:00:00:00 - Rule #844: '<- l Az"36"' accepted as '<-lAz"36"'
+0:00:00:00 - Oldest still in use is now rule #843
+0:00:00:00 - Rule #845: '<- l Az"37"' accepted as '<-lAz"37"'
+0:00:00:00 - Oldest still in use is now rule #844
+0:00:00:00 - Rule #846: '<- l Az"38"' accepted as '<-lAz"38"'
+0:00:00:00 - Oldest still in use is now rule #845
+0:00:00:00 - Rule #847: '<- l Az"39"' accepted as '<-lAz"39"'
+0:00:00:00 - Oldest still in use is now rule #846
+0:00:00:00 - Rule #848: '<- l Az"40"' accepted as '<-lAz"40"'
+0:00:00:00 - Oldest still in use is now rule #847
+0:00:00:00 - Rule #849: '<- l Az"41"' accepted as '<-lAz"41"'
+0:00:00:00 - Oldest still in use is now rule #848
+0:00:00:00 - Rule #850: '<- l Az"42"' accepted as '<-lAz"42"'
+0:00:00:00 - Oldest still in use is now rule #849
+0:00:00:00 - Rule #851: '<- l Az"43"' accepted as '<-lAz"43"'
+0:00:00:00 - Oldest still in use is now rule #850
+0:00:00:00 - Rule #852: '<- l Az"44"' accepted as '<-lAz"44"'
+0:00:00:00 - Oldest still in use is now rule #851
+0:00:00:00 - Rule #853: '<- l Az"45"' accepted as '<-lAz"45"'
+0:00:00:00 - Oldest still in use is now rule #852
+0:00:00:00 - Rule #854: '<- l Az"46"' accepted as '<-lAz"46"'
+0:00:00:00 - Oldest still in use is now rule #853
+0:00:00:00 - Rule #855: '<- l Az"47"' accepted as '<-lAz"47"'
+0:00:00:00 - Oldest still in use is now rule #854
+0:00:00:00 - Rule #856: '<- l Az"48"' accepted as '<-lAz"48"'
+0:00:00:00 - Oldest still in use is now rule #855
+0:00:00:00 - Rule #857: '<- l Az"49"' accepted as '<-lAz"49"'
+0:00:00:00 - Oldest still in use is now rule #856
+0:00:00:00 - Rule #858: '<- l Az"50"' accepted as '<-lAz"50"'
+0:00:00:00 - Oldest still in use is now rule #857
+0:00:00:00 - Rule #859: '<- l Az"51"' accepted as '<-lAz"51"'
+0:00:00:00 - Oldest still in use is now rule #858
+0:00:00:00 - Rule #860: '<- l Az"52"' accepted as '<-lAz"52"'
+0:00:00:00 - Oldest still in use is now rule #859
+0:00:00:00 - Rule #861: '<- l Az"53"' accepted as '<-lAz"53"'
+0:00:00:00 - Oldest still in use is now rule #860
+0:00:00:00 - Rule #862: '<- l Az"54"' accepted as '<-lAz"54"'
+0:00:00:00 - Oldest still in use is now rule #861
+0:00:00:00 - Rule #863: '<- l Az"55"' accepted as '<-lAz"55"'
+0:00:00:00 - Oldest still in use is now rule #862
+0:00:00:00 - Rule #864: '<- l Az"56"' accepted as '<-lAz"56"'
+0:00:00:00 - Oldest still in use is now rule #863
+0:00:00:00 - Rule #865: '<- l Az"57"' accepted as '<-lAz"57"'
+0:00:00:00 - Oldest still in use is now rule #864
+0:00:00:00 - Rule #866: '<- l Az"58"' accepted as '<-lAz"58"'
+0:00:00:00 - Oldest still in use is now rule #865
+0:00:00:00 - Rule #867: '<- l Az"59"' accepted as '<-lAz"59"'
+0:00:00:00 - Oldest still in use is now rule #866
+0:00:00:00 - Rule #868: '-c <- (?a c Az"60"' accepted as '<-(?acAz"60"'
+0:00:00:00 - Oldest still in use is now rule #867
+0:00:00:00 - Rule #869: '-c <- (?a c Az"61"' accepted as '<-(?acAz"61"'
+0:00:00:00 - Oldest still in use is now rule #868
+0:00:00:00 - Rule #870: '-c <- (?a c Az"62"' accepted as '<-(?acAz"62"'
+0:00:00:00 - Oldest still in use is now rule #869
+0:00:00:00 - Rule #871: '-c <- (?a c Az"63"' accepted as '<-(?acAz"63"'
+0:00:00:00 - Oldest still in use is now rule #870
+0:00:00:00 - Rule #872: '-c <- (?a c Az"64"' accepted as '<-(?acAz"64"'
+0:00:00:00 - Oldest still in use is now rule #871
+0:00:00:00 - Rule #873: '-c <- (?a c Az"65"' accepted as '<-(?acAz"65"'
+0:00:00:00 - Oldest still in use is now rule #872
+0:00:00:00 - Rule #874: '-c <- (?a c Az"66"' accepted as '<-(?acAz"66"'
+0:00:00:00 - Oldest still in use is now rule #873
+0:00:00:00 - Rule #875: '-c <- (?a c Az"67"' accepted as '<-(?acAz"67"'
+0:00:00:00 - Oldest still in use is now rule #874
+0:00:00:00 - Rule #876: '-c <- (?a c Az"68"' accepted as '<-(?acAz"68"'
+0:00:00:00 - Oldest still in use is now rule #875
+0:00:00:00 - Rule #877: '-c <- (?a c Az"69"' accepted as '<-(?acAz"69"'
+0:00:00:00 - Oldest still in use is now rule #876
+0:00:00:00 - Rule #878: '-c <- (?a c Az"30"' accepted as '<-(?acAz"30"'
+0:00:00:00 - Oldest still in use is now rule #877
+0:00:00:00 - Rule #879: '-c <- (?a c Az"31"' accepted as '<-(?acAz"31"'
+0:00:00:00 - Oldest still in use is now rule #878
+0:00:00:00 - Rule #880: '-c <- (?a c Az"32"' accepted as '<-(?acAz"32"'
+0:00:00:00 - Oldest still in use is now rule #879
+0:00:00:00 - Rule #881: '-c <- (?a c Az"33"' accepted as '<-(?acAz"33"'
+0:00:00:00 - Oldest still in use is now rule #880
+0:00:00:00 - Rule #882: '-c <- (?a c Az"34"' accepted as '<-(?acAz"34"'
+0:00:00:00 - Oldest still in use is now rule #881
+0:00:00:00 - Rule #883: '-c <- (?a c Az"35"' accepted as '<-(?acAz"35"'
+0:00:00:00 - Oldest still in use is now rule #882
+0:00:00:00 - Rule #884: '-c <- (?a c Az"36"' accepted as '<-(?acAz"36"'
+0:00:00:00 - Oldest still in use is now rule #883
+0:00:00:00 - Rule #885: '-c <- (?a c Az"37"' accepted as '<-(?acAz"37"'
+0:00:00:00 - Oldest still in use is now rule #884
+0:00:00:00 - Rule #886: '-c <- (?a c Az"38"' accepted as '<-(?acAz"38"'
+0:00:00:00 - Oldest still in use is now rule #885
+0:00:00:00 - Rule #887: '-c <- (?a c Az"39"' accepted as '<-(?acAz"39"'
+0:00:00:00 - Oldest still in use is now rule #886
+0:00:00:00 - Rule #888: '-c <- (?a c Az"40"' accepted as '<-(?acAz"40"'
+0:00:00:00 - Oldest still in use is now rule #887
+0:00:00:00 - Rule #889: '-c <- (?a c Az"41"' accepted as '<-(?acAz"41"'
+0:00:00:00 - Oldest still in use is now rule #888
+0:00:00:00 - Rule #890: '-c <- (?a c Az"42"' accepted as '<-(?acAz"42"'
+0:00:00:00 - Oldest still in use is now rule #889
+0:00:00:00 - Rule #891: '-c <- (?a c Az"43"' accepted as '<-(?acAz"43"'
+0:00:00:00 - Oldest still in use is now rule #890
+0:00:00:00 - Rule #892: '-c <- (?a c Az"44"' accepted as '<-(?acAz"44"'
+0:00:00:00 - Oldest still in use is now rule #891
+0:00:00:00 - Rule #893: '-c <- (?a c Az"45"' accepted as '<-(?acAz"45"'
+0:00:00:00 - Oldest still in use is now rule #892
+0:00:00:00 - Rule #894: '-c <- (?a c Az"46"' accepted as '<-(?acAz"46"'
+0:00:00:00 - Oldest still in use is now rule #893
+0:00:00:00 - Rule #895: '-c <- (?a c Az"47"' accepted as '<-(?acAz"47"'
+0:00:00:00 - Oldest still in use is now rule #894
+0:00:00:00 - Rule #896: '-c <- (?a c Az"48"' accepted as '<-(?acAz"48"'
+0:00:00:00 - Oldest still in use is now rule #895
+0:00:00:00 - Rule #897: '-c <- (?a c Az"49"' accepted as '<-(?acAz"49"'
+0:00:00:00 - Oldest still in use is now rule #896
+0:00:00:00 - Rule #898: '-c <- (?a c Az"50"' accepted as '<-(?acAz"50"'
+0:00:00:00 - Oldest still in use is now rule #897
+0:00:00:00 - Rule #899: '-c <- (?a c Az"51"' accepted as '<-(?acAz"51"'
+0:00:00:00 - Oldest still in use is now rule #898
+0:00:00:00 - Rule #900: '-c <- (?a c Az"52"' accepted as '<-(?acAz"52"'
+0:00:00:00 - Oldest still in use is now rule #899
+0:00:00:00 - Rule #901: '-c <- (?a c Az"53"' accepted as '<-(?acAz"53"'
+0:00:00:00 - Oldest still in use is now rule #900
+0:00:00:00 - Rule #902: '-c <- (?a c Az"54"' accepted as '<-(?acAz"54"'
+0:00:00:00 - Oldest still in use is now rule #901
+0:00:00:00 - Rule #903: '-c <- (?a c Az"55"' accepted as '<-(?acAz"55"'
+0:00:00:00 - Oldest still in use is now rule #902
+0:00:00:00 - Rule #904: '-c <- (?a c Az"56"' accepted as '<-(?acAz"56"'
+0:00:00:00 - Oldest still in use is now rule #903
+0:00:00:00 - Rule #905: '-c <- (?a c Az"57"' accepted as '<-(?acAz"57"'
+0:00:00:00 - Oldest still in use is now rule #904
+0:00:00:00 - Rule #906: '-c <- (?a c Az"58"' accepted as '<-(?acAz"58"'
+0:00:00:00 - Oldest still in use is now rule #905
+0:00:00:00 - Rule #907: '-c <- (?a c Az"59"' accepted as '<-(?acAz"59"'
+0:00:00:00 - Oldest still in use is now rule #906
+0:00:00:00 - Rule #908: '-: (?a l Az"007" <+' accepted as '(?alAz"007"<+'
+0:00:00:00 - Oldest still in use is now rule #907
+0:00:00:00 - Rule #909: '-c (?a c Az"007" <+' accepted as '(?acAz"007"<+'
+0:00:00:00 - Oldest still in use is now rule #908
+0:00:00:00 - Rule #910: '-: (?a l Az"123" <+' accepted as '(?alAz"123"<+'
+0:00:00:00 - Oldest still in use is now rule #909
+0:00:00:00 - Rule #911: '-c (?a c Az"123" <+' accepted as '(?acAz"123"<+'
+0:00:00:00 - Oldest still in use is now rule #910
+0:00:00:00 - Rule #912: '-: (?a l Az"000" <+' accepted as '(?alAz"000"<+'
+0:00:00:00 - Oldest still in use is now rule #911
+0:00:00:00 - Rule #913: '-: (?a l Az"111" <+' accepted as '(?alAz"111"<+'
+0:00:00:00 - Oldest still in use is now rule #912
+0:00:00:00 - Rule #914: '-: (?a l Az"222" <+' accepted as '(?alAz"222"<+'
+0:00:00:00 - Oldest still in use is now rule #913
+0:00:00:00 - Rule #915: '-: (?a l Az"333" <+' accepted as '(?alAz"333"<+'
+0:00:00:00 - Oldest still in use is now rule #914
+0:00:00:00 - Rule #916: '-: (?a l Az"444" <+' accepted as '(?alAz"444"<+'
+0:00:00:00 - Oldest still in use is now rule #915
+0:00:00:00 - Rule #917: '-: (?a l Az"555" <+' accepted as '(?alAz"555"<+'
+0:00:00:00 - Oldest still in use is now rule #916
+0:00:00:00 - Rule #918: '-: (?a l Az"666" <+' accepted as '(?alAz"666"<+'
+0:00:00:00 - Oldest still in use is now rule #917
+0:00:00:00 - Rule #919: '-: (?a l Az"777" <+' accepted as '(?alAz"777"<+'
+0:00:00:00 - Oldest still in use is now rule #918
+0:00:00:00 - Rule #920: '-: (?a l Az"888" <+' accepted as '(?alAz"888"<+'
+0:00:00:00 - Oldest still in use is now rule #919
+0:00:00:00 - Rule #921: '-: (?a l Az"999" <+' accepted as '(?alAz"999"<+'
+0:00:00:00 - Oldest still in use is now rule #920
+0:00:00:00 - Rule #922: '-c (?a c Az"000" <+' accepted as '(?acAz"000"<+'
+0:00:00:00 - Oldest still in use is now rule #921
+0:00:00:00 - Rule #923: '-c (?a c Az"111" <+' accepted as '(?acAz"111"<+'
+0:00:00:00 - Oldest still in use is now rule #922
+0:00:00:00 - Rule #924: '-c (?a c Az"222" <+' accepted as '(?acAz"222"<+'
+0:00:00:00 - Oldest still in use is now rule #923
+0:00:00:00 - Rule #925: '-c (?a c Az"333" <+' accepted as '(?acAz"333"<+'
+0:00:00:00 - Oldest still in use is now rule #924
+0:00:00:00 - Rule #926: '-c (?a c Az"444" <+' accepted as '(?acAz"444"<+'
+0:00:00:00 - Oldest still in use is now rule #925
+0:00:00:00 - Rule #927: '-c (?a c Az"555" <+' accepted as '(?acAz"555"<+'
+0:00:00:00 - Oldest still in use is now rule #926
+0:00:00:00 - Rule #928: '-c (?a c Az"666" <+' accepted as '(?acAz"666"<+'
+0:00:00:00 - Oldest still in use is now rule #927
+0:00:00:00 - Rule #929: '-c (?a c Az"777" <+' accepted as '(?acAz"777"<+'
+0:00:00:00 - Oldest still in use is now rule #928
+0:00:00:00 - Rule #930: '-c (?a c Az"888" <+' accepted as '(?acAz"888"<+'
+0:00:00:00 - Oldest still in use is now rule #929
+0:00:00:00 - Rule #931: '-c (?a c Az"999" <+' accepted as '(?acAz"999"<+'
+0:00:00:00 - Oldest still in use is now rule #930
+0:00:00:00 - Rule #932: '-: (?a l Az"1234" <+' accepted as '(?alAz"1234"<+'
+0:00:00:00 - Oldest still in use is now rule #931
+0:00:00:00 - Rule #933: '-c (?a c Az"1234" <+' accepted as '(?acAz"1234"<+'
+0:00:00:00 - Oldest still in use is now rule #932
+0:00:00:00 - Rule #934: '-: (?a l Az"0000" <+' accepted as '(?alAz"0000"<+'
+0:00:00:00 - Oldest still in use is now rule #933
+0:00:00:00 - Rule #935: '-: (?a l Az"1111" <+' accepted as '(?alAz"1111"<+'
+0:00:00:00 - Oldest still in use is now rule #934
+0:00:00:00 - Rule #936: '-: (?a l Az"2222" <+' accepted as '(?alAz"2222"<+'
+0:00:00:00 - Oldest still in use is now rule #935
+0:00:00:00 - Rule #937: '-: (?a l Az"3333" <+' accepted as '(?alAz"3333"<+'
+0:00:00:00 - Oldest still in use is now rule #936
+0:00:00:00 - Rule #938: '-: (?a l Az"4444" <+' accepted as '(?alAz"4444"<+'
+0:00:00:00 - Oldest still in use is now rule #937
+0:00:00:00 - Rule #939: '-: (?a l Az"5555" <+' accepted as '(?alAz"5555"<+'
+0:00:00:00 - Oldest still in use is now rule #938
+0:00:00:00 - Rule #940: '-: (?a l Az"6666" <+' accepted as '(?alAz"6666"<+'
+0:00:00:00 - Oldest still in use is now rule #939
+0:00:00:00 - Rule #941: '-: (?a l Az"7777" <+' accepted as '(?alAz"7777"<+'
+0:00:00:00 - Oldest still in use is now rule #940
+0:00:00:00 - Rule #942: '-: (?a l Az"8888" <+' accepted as '(?alAz"8888"<+'
+0:00:00:00 - Oldest still in use is now rule #941
+0:00:00:00 - Rule #943: '-: (?a l Az"9999" <+' accepted as '(?alAz"9999"<+'
+0:00:00:00 - Oldest still in use is now rule #942
+0:00:00:00 - Rule #944: '-c (?a c Az"0000" <+' accepted as '(?acAz"0000"<+'
+0:00:00:00 - Oldest still in use is now rule #943
+0:00:00:00 - Rule #945: '-c (?a c Az"1111" <+' accepted as '(?acAz"1111"<+'
+0:00:00:00 - Oldest still in use is now rule #944
+0:00:00:00 - Rule #946: '-c (?a c Az"2222" <+' accepted as '(?acAz"2222"<+'
+0:00:00:00 - Oldest still in use is now rule #945
+0:00:00:00 - Rule #947: '-c (?a c Az"3333" <+' accepted as '(?acAz"3333"<+'
+0:00:00:00 - Oldest still in use is now rule #946
+0:00:00:00 - Rule #948: '-c (?a c Az"4444" <+' accepted as '(?acAz"4444"<+'
+0:00:00:00 - Oldest still in use is now rule #947
+0:00:00:00 - Rule #949: '-c (?a c Az"5555" <+' accepted as '(?acAz"5555"<+'
+0:00:00:00 - Oldest still in use is now rule #948
+0:00:00:00 - Rule #950: '-c (?a c Az"6666" <+' accepted as '(?acAz"6666"<+'
+0:00:00:00 - Oldest still in use is now rule #949
+0:00:00:00 - Rule #951: '-c (?a c Az"7777" <+' accepted as '(?acAz"7777"<+'
+0:00:00:00 - Oldest still in use is now rule #950
+0:00:00:00 - Rule #952: '-c (?a c Az"8888" <+' accepted as '(?acAz"8888"<+'
+0:00:00:00 - Oldest still in use is now rule #951
+0:00:00:00 - Rule #953: '-c (?a c Az"9999" <+' accepted as '(?acAz"9999"<+'
+0:00:00:00 - Oldest still in use is now rule #952
+0:00:00:00 - Rule #954: '-: (?a l Az"12345" <+' accepted as '(?alAz"12345"<+'
+0:00:00:00 - Oldest still in use is now rule #953
+0:00:00:00 - Rule #955: '-c (?a c Az"12345" <+' accepted as '(?acAz"12345"<+'
+0:00:00:00 - Oldest still in use is now rule #954
+0:00:00:00 - Rule #956: '-: (?a l Az"00000" <+' accepted as '(?alAz"00000"<+'
+0:00:00:00 - Oldest still in use is now rule #955
+0:00:00:00 - Rule #957: '-: (?a l Az"11111" <+' accepted as '(?alAz"11111"<+'
+0:00:00:00 - Oldest still in use is now rule #956
+0:00:00:00 - Rule #958: '-: (?a l Az"22222" <+' accepted as '(?alAz"22222"<+'
+0:00:00:00 - Oldest still in use is now rule #957
+0:00:00:00 - Rule #959: '-: (?a l Az"33333" <+' accepted as '(?alAz"33333"<+'
+0:00:00:00 - Oldest still in use is now rule #958
+0:00:00:00 - Rule #960: '-: (?a l Az"44444" <+' accepted as '(?alAz"44444"<+'
+0:00:00:00 - Oldest still in use is now rule #959
+0:00:00:00 - Rule #961: '-: (?a l Az"55555" <+' accepted as '(?alAz"55555"<+'
+0:00:00:00 - Oldest still in use is now rule #960
+0:00:00:00 - Rule #962: '-: (?a l Az"66666" <+' accepted as '(?alAz"66666"<+'
+0:00:00:00 - Oldest still in use is now rule #961
+0:00:00:00 - Rule #963: '-: (?a l Az"77777" <+' accepted as '(?alAz"77777"<+'
+0:00:00:00 - Oldest still in use is now rule #962
+0:00:00:00 - Rule #964: '-: (?a l Az"88888" <+' accepted as '(?alAz"88888"<+'
+0:00:00:00 - Oldest still in use is now rule #963
+0:00:00:00 - Rule #965: '-: (?a l Az"99999" <+' accepted as '(?alAz"99999"<+'
+0:00:00:00 - Oldest still in use is now rule #964
+0:00:00:00 - Rule #966: '-c (?a c Az"00000" <+' accepted as '(?acAz"00000"<+'
+0:00:00:00 - Oldest still in use is now rule #965
+0:00:00:00 - Rule #967: '-c (?a c Az"11111" <+' accepted as '(?acAz"11111"<+'
+0:00:00:00 - Oldest still in use is now rule #966
+0:00:00:00 - Rule #968: '-c (?a c Az"22222" <+' accepted as '(?acAz"22222"<+'
+0:00:00:00 - Oldest still in use is now rule #967
+0:00:00:00 - Rule #969: '-c (?a c Az"33333" <+' accepted as '(?acAz"33333"<+'
+0:00:00:00 - Oldest still in use is now rule #968
+0:00:00:00 - Rule #970: '-c (?a c Az"44444" <+' accepted as '(?acAz"44444"<+'
+0:00:00:00 - Oldest still in use is now rule #969
+0:00:00:00 - Rule #971: '-c (?a c Az"55555" <+' accepted as '(?acAz"55555"<+'
+0:00:00:00 - Oldest still in use is now rule #970
+0:00:00:00 - Rule #972: '-c (?a c Az"66666" <+' accepted as '(?acAz"66666"<+'
+0:00:00:00 - Oldest still in use is now rule #971
+0:00:00:00 - Rule #973: '-c (?a c Az"77777" <+' accepted as '(?acAz"77777"<+'
+0:00:00:00 - Oldest still in use is now rule #972
+0:00:00:00 - Rule #974: '-c (?a c Az"88888" <+' accepted as '(?acAz"88888"<+'
+0:00:00:00 - Oldest still in use is now rule #973
+0:00:00:00 - Rule #975: '-c (?a c Az"99999" <+' accepted as '(?acAz"99999"<+'
+0:00:00:00 - Oldest still in use is now rule #974
+0:00:00:00 - Rule #976: '-: (?a l Az"123456" <+' accepted as '(?alAz"123456"<+'
+0:00:00:00 - Oldest still in use is now rule #975
+0:00:00:00 - Rule #977: '-c (?a c Az"123456" <+' accepted as '(?acAz"123456"<+'
+0:00:00:00 - Oldest still in use is now rule #976
+0:00:00:00 - Rule #978: '-: (?a l Az"000000" <+' accepted as '(?alAz"000000"<+'
+0:00:00:00 - Oldest still in use is now rule #977
+0:00:00:00 - Rule #979: '-: (?a l Az"111111" <+' accepted as '(?alAz"111111"<+'
+0:00:00:00 - Oldest still in use is now rule #978
+0:00:00:00 - Rule #980: '-: (?a l Az"222222" <+' accepted as '(?alAz"222222"<+'
+0:00:00:00 - Oldest still in use is now rule #979
+0:00:00:00 - Rule #981: '-: (?a l Az"333333" <+' accepted as '(?alAz"333333"<+'
+0:00:00:00 - Oldest still in use is now rule #980
+0:00:00:00 - Rule #982: '-: (?a l Az"444444" <+' accepted as '(?alAz"444444"<+'
+0:00:00:00 - Oldest still in use is now rule #981
+0:00:00:00 - Rule #983: '-: (?a l Az"555555" <+' accepted as '(?alAz"555555"<+'
+0:00:00:00 - Oldest still in use is now rule #982
+0:00:00:00 - Rule #984: '-: (?a l Az"666666" <+' accepted as '(?alAz"666666"<+'
+0:00:00:00 - Oldest still in use is now rule #983
+0:00:00:00 - Rule #985: '-: (?a l Az"777777" <+' accepted as '(?alAz"777777"<+'
+0:00:00:00 - Oldest still in use is now rule #984
+0:00:00:00 - Rule #986: '-: (?a l Az"888888" <+' accepted as '(?alAz"888888"<+'
+0:00:00:00 - Oldest still in use is now rule #985
+0:00:00:00 - Rule #987: '-: (?a l Az"999999" <+' accepted as '(?alAz"999999"<+'
+0:00:00:00 - Oldest still in use is now rule #986
+0:00:00:00 - Rule #988: '-c (?a c Az"000000" <+' accepted as '(?acAz"000000"<+'
+0:00:00:00 - Oldest still in use is now rule #987
+0:00:00:00 - Rule #989: '-c (?a c Az"111111" <+' accepted as '(?acAz"111111"<+'
+0:00:00:00 - Oldest still in use is now rule #988
+0:00:00:00 - Rule #990: '-c (?a c Az"222222" <+' accepted as '(?acAz"222222"<+'
+0:00:00:00 - Oldest still in use is now rule #989
+0:00:00:00 - Rule #991: '-c (?a c Az"333333" <+' accepted as '(?acAz"333333"<+'
+0:00:00:00 - Oldest still in use is now rule #990
+0:00:00:00 - Rule #992: '-c (?a c Az"444444" <+' accepted as '(?acAz"444444"<+'
+0:00:00:00 - Oldest still in use is now rule #991
+0:00:00:00 - Rule #993: '-c (?a c Az"555555" <+' accepted as '(?acAz"555555"<+'
+0:00:00:00 - Oldest still in use is now rule #992
+0:00:00:00 - Rule #994: '-c (?a c Az"666666" <+' accepted as '(?acAz"666666"<+'
+0:00:00:00 - Oldest still in use is now rule #993
+0:00:00:00 - Rule #995: '-c (?a c Az"777777" <+' accepted as '(?acAz"777777"<+'
+0:00:00:00 - Oldest still in use is now rule #994
+0:00:00:00 - Rule #996: '-c (?a c Az"888888" <+' accepted as '(?acAz"888888"<+'
+0:00:00:00 - Oldest still in use is now rule #995
+0:00:00:00 - Rule #997: '-c (?a c Az"999999" <+' accepted as '(?acAz"999999"<+'
+0:00:00:00 - Oldest still in use is now rule #996
+0:00:00:00 - Rule #998: 'l Az"197" <+ >-' accepted as 'lAz"197"<+>-'
+0:00:00:00 - Oldest still in use is now rule #997
+0:00:00:00 - Rule #999: 'l Az"198" <+ >-' accepted as 'lAz"198"<+>-'
+0:00:00:00 - Rule #1000: 'l Az"199" <+ >-' accepted as 'lAz"199"<+>-'
+0:00:00:00 - Rule #1001: 'l Az"196" <+ >-' accepted as 'lAz"196"<+>-'
+0:00:00:00 - Rule #1002: 'l Az"195" <+ >-' accepted as 'lAz"195"<+>-'
+0:00:00:00 - Rule #1003: 'l Az"194" <+ >-' accepted as 'lAz"194"<+>-'
+0:00:00:00 - Rule #1004: 'l Az"193" <+ >-' accepted as 'lAz"193"<+>-'
+0:00:00:00 - Rule #1005: 'l Az"192" <+ >-' accepted as 'lAz"192"<+>-'
+0:00:00:00 - Rule #1006: 'l Az"191" <+ >-' accepted as 'lAz"191"<+>-'
+0:00:00:00 - Rule #1007: 'l Az"190" <+ >-' accepted as 'lAz"190"<+>-'
+0:00:00:00 - Rule #1008: 'l Az"200" <+ >-' accepted as 'lAz"200"<+>-'
+0:00:00:00 - Rule #1009: 'l Az"201" <+ >-' accepted as 'lAz"201"<+>-'
+0:00:00:00 - Rule #1010: 'l Az"1970" <+' accepted as 'lAz"1970"<+'
+0:00:00:00 - Rule #1011: 'l Az"1971" <+' accepted as 'lAz"1971"<+'
+0:00:00:00 - Oldest still in use is now rule #1010
+0:00:00:00 - Rule #1012: 'l Az"1972" <+' accepted as 'lAz"1972"<+'
+0:00:00:00 - Oldest still in use is now rule #1011
+0:00:00:00 - Rule #1013: 'l Az"1973" <+' accepted as 'lAz"1973"<+'
+0:00:00:00 - Oldest still in use is now rule #1012
+0:00:00:00 - Rule #1014: 'l Az"1974" <+' accepted as 'lAz"1974"<+'
+0:00:00:00 - Oldest still in use is now rule #1013
+0:00:00:00 - Rule #1015: 'l Az"1975" <+' accepted as 'lAz"1975"<+'
+0:00:00:00 - Oldest still in use is now rule #1014
+0:00:00:00 - Rule #1016: 'l Az"1976" <+' accepted as 'lAz"1976"<+'
+0:00:00:00 - Oldest still in use is now rule #1015
+0:00:00:00 - Rule #1017: 'l Az"1977" <+' accepted as 'lAz"1977"<+'
+0:00:00:00 - Oldest still in use is now rule #1016
+0:00:00:00 - Rule #1018: 'l Az"1978" <+' accepted as 'lAz"1978"<+'
+0:00:00:00 - Oldest still in use is now rule #1017
+0:00:00:00 - Rule #1019: 'l Az"1979" <+' accepted as 'lAz"1979"<+'
+0:00:00:00 - Oldest still in use is now rule #1018
+0:00:00:00 - Rule #1020: 'l Az"1980" <+' accepted as 'lAz"1980"<+'
+0:00:00:00 - Oldest still in use is now rule #1019
+0:00:00:00 - Rule #1021: 'l Az"1981" <+' accepted as 'lAz"1981"<+'
+0:00:00:00 - Oldest still in use is now rule #1020
+0:00:00:00 - Rule #1022: 'l Az"1982" <+' accepted as 'lAz"1982"<+'
+0:00:00:00 - Oldest still in use is now rule #1021
+0:00:00:00 - Rule #1023: 'l Az"1983" <+' accepted as 'lAz"1983"<+'
+0:00:00:00 - Oldest still in use is now rule #1022
+0:00:00:00 - Rule #1024: 'l Az"1984" <+' accepted as 'lAz"1984"<+'
+0:00:00:00 - Oldest still in use is now rule #1023
+0:00:00:00 - Rule #1025: 'l Az"1985" <+' accepted as 'lAz"1985"<+'
+0:00:00:00 - Oldest still in use is now rule #1024
+0:00:00:00 - Rule #1026: 'l Az"1986" <+' accepted as 'lAz"1986"<+'
+0:00:00:00 - Oldest still in use is now rule #1025
+0:00:00:00 - Rule #1027: 'l Az"1987" <+' accepted as 'lAz"1987"<+'
+0:00:00:00 - Oldest still in use is now rule #1026
+0:00:00:00 - Rule #1028: 'l Az"1988" <+' accepted as 'lAz"1988"<+'
+0:00:00:00 - Oldest still in use is now rule #1027
+0:00:00:00 - Rule #1029: 'l Az"1989" <+' accepted as 'lAz"1989"<+'
+0:00:00:00 - Oldest still in use is now rule #1028
+0:00:00:00 - Rule #1030: 'l Az"1990" <+' accepted as 'lAz"1990"<+'
+0:00:00:00 - Oldest still in use is now rule #1029
+0:00:00:00 - Rule #1031: 'l Az"1991" <+' accepted as 'lAz"1991"<+'
+0:00:00:00 - Oldest still in use is now rule #1030
+0:00:00:00 - Rule #1032: 'l Az"1992" <+' accepted as 'lAz"1992"<+'
+0:00:00:00 - Oldest still in use is now rule #1031
+0:00:00:00 - Rule #1033: 'l Az"1993" <+' accepted as 'lAz"1993"<+'
+0:00:00:00 - Oldest still in use is now rule #1032
+0:00:00:00 - Rule #1034: 'l Az"1994" <+' accepted as 'lAz"1994"<+'
+0:00:00:00 - Oldest still in use is now rule #1033
+0:00:00:00 - Rule #1035: 'l Az"1995" <+' accepted as 'lAz"1995"<+'
+0:00:00:00 - Oldest still in use is now rule #1034
+0:00:00:00 - Rule #1036: 'l Az"1996" <+' accepted as 'lAz"1996"<+'
+0:00:00:00 - Oldest still in use is now rule #1035
+0:00:00:00 - Rule #1037: 'l Az"1997" <+' accepted as 'lAz"1997"<+'
+0:00:00:00 - Oldest still in use is now rule #1036
+0:00:00:00 - Rule #1038: 'l Az"1998" <+' accepted as 'lAz"1998"<+'
+0:00:00:00 - Oldest still in use is now rule #1037
+0:00:00:00 - Rule #1039: 'l Az"1999" <+' accepted as 'lAz"1999"<+'
+0:00:00:00 - Oldest still in use is now rule #1038
+0:00:00:00 - Rule #1040: 'l Az"2000" <+' accepted as 'lAz"2000"<+'
+0:00:00:00 - Oldest still in use is now rule #1039
+0:00:00:00 - Rule #1041: 'l Az"2001" <+' accepted as 'lAz"2001"<+'
+0:00:00:00 - Oldest still in use is now rule #1040
+0:00:00:00 - Rule #1042: 'l Az"2002" <+' accepted as 'lAz"2002"<+'
+0:00:00:00 - Oldest still in use is now rule #1041
+0:00:00:00 - Rule #1043: 'l Az"2003" <+' accepted as 'lAz"2003"<+'
+0:00:00:00 - Oldest still in use is now rule #1042
+0:00:00:00 - Rule #1044: 'l Az"2004" <+' accepted as 'lAz"2004"<+'
+0:00:00:00 - Oldest still in use is now rule #1043
+0:00:00:00 - Rule #1045: 'l Az"2005" <+' accepted as 'lAz"2005"<+'
+0:00:00:00 - Oldest still in use is now rule #1044
+0:00:00:00 - Rule #1046: 'l Az"2006" <+' accepted as 'lAz"2006"<+'
+0:00:00:00 - Oldest still in use is now rule #1045
+0:00:00:00 - Rule #1047: 'l Az"2007" <+' accepted as 'lAz"2007"<+'
+0:00:00:00 - Oldest still in use is now rule #1046
+0:00:00:00 - Rule #1048: 'l Az"2008" <+' accepted as 'lAz"2008"<+'
+0:00:00:00 - Oldest still in use is now rule #1047
+0:00:00:00 - Rule #1049: 'l Az"2009" <+' accepted as 'lAz"2009"<+'
+0:00:00:00 - Oldest still in use is now rule #1048
+0:00:00:00 - Rule #1050: 'l Az"2010" <+' accepted as 'lAz"2010"<+'
+0:00:00:00 - Oldest still in use is now rule #1049
+0:00:00:00 - Rule #1051: 'l Az"2011" <+' accepted as 'lAz"2011"<+'
+0:00:00:00 - Oldest still in use is now rule #1050
+0:00:00:00 - Rule #1052: 'l Az"2012" <+' accepted as 'lAz"2012"<+'
+0:00:00:00 - Oldest still in use is now rule #1051
+0:00:00:00 - Rule #1053: 'l Az"2013" <+' accepted as 'lAz"2013"<+'
+0:00:00:00 - Oldest still in use is now rule #1052
+0:00:00:00 - Rule #1054: 'l Az"2014" <+' accepted as 'lAz"2014"<+'
+0:00:00:00 - Oldest still in use is now rule #1053
+0:00:00:00 - Rule #1055: 'l Az"2015" <+' accepted as 'lAz"2015"<+'
+0:00:00:00 - Oldest still in use is now rule #1054
+0:00:00:00 - Rule #1056: 'l Az"2016" <+' accepted as 'lAz"2016"<+'
+0:00:00:00 - Oldest still in use is now rule #1055
+0:00:00:00 - Rule #1057: 'l Az"2017" <+' accepted as 'lAz"2017"<+'
+0:00:00:00 - Oldest still in use is now rule #1056
+0:00:00:00 - Rule #1058: 'l Az"2018" <+' accepted as 'lAz"2018"<+'
+0:00:00:00 - Oldest still in use is now rule #1057
+0:00:00:00 - Rule #1059: 'l Az"2019" <+' accepted as 'lAz"2019"<+'
+0:00:00:00 - Oldest still in use is now rule #1058
+0:00:00:00 - Rule #1060: 'l Az"1969" <+' accepted as 'lAz"1969"<+'
+0:00:00:00 - Oldest still in use is now rule #1059
+0:00:00:00 - Rule #1061: 'l Az"1968" <+' accepted as 'lAz"1968"<+'
+0:00:00:00 - Oldest still in use is now rule #1060
+0:00:00:00 - Rule #1062: 'l Az"1967" <+' accepted as 'lAz"1967"<+'
+0:00:00:00 - Oldest still in use is now rule #1061
+0:00:00:00 - Rule #1063: 'l Az"1966" <+' accepted as 'lAz"1966"<+'
+0:00:00:00 - Oldest still in use is now rule #1062
+0:00:00:00 - Rule #1064: 'l Az"1965" <+' accepted as 'lAz"1965"<+'
+0:00:00:00 - Oldest still in use is now rule #1063
+0:00:00:00 - Rule #1065: 'l Az"1964" <+' accepted as 'lAz"1964"<+'
+0:00:00:00 - Oldest still in use is now rule #1064
+0:00:00:00 - Rule #1066: 'l Az"1963" <+' accepted as 'lAz"1963"<+'
+0:00:00:00 - Oldest still in use is now rule #1065
+0:00:00:00 - Rule #1067: 'l Az"1962" <+' accepted as 'lAz"1962"<+'
+0:00:00:00 - Oldest still in use is now rule #1066
+0:00:00:00 - Rule #1068: 'l Az"1961" <+' accepted as 'lAz"1961"<+'
+0:00:00:00 - Oldest still in use is now rule #1067
+0:00:00:00 - Rule #1069: 'l Az"1960" <+' accepted as 'lAz"1960"<+'
+0:00:00:00 - Oldest still in use is now rule #1068
+0:00:00:00 - Rule #1070: 'l Az"1959" <+' accepted as 'lAz"1959"<+'
+0:00:00:00 - Oldest still in use is now rule #1069
+0:00:00:00 - Rule #1071: 'l Az"1958" <+' accepted as 'lAz"1958"<+'
+0:00:00:00 - Oldest still in use is now rule #1070
+0:00:00:00 - Rule #1072: 'l Az"1957" <+' accepted as 'lAz"1957"<+'
+0:00:00:00 - Oldest still in use is now rule #1071
+0:00:00:00 - Rule #1073: 'l Az"1956" <+' accepted as 'lAz"1956"<+'
+0:00:00:00 - Oldest still in use is now rule #1072
+0:00:00:00 - Rule #1074: 'l Az"1955" <+' accepted as 'lAz"1955"<+'
+0:00:00:00 - Oldest still in use is now rule #1073
+0:00:00:00 - Rule #1075: 'l Az"1954" <+' accepted as 'lAz"1954"<+'
+0:00:00:00 - Oldest still in use is now rule #1074
+0:00:00:00 - Rule #1076: 'l Az"1953" <+' accepted as 'lAz"1953"<+'
+0:00:00:00 - Oldest still in use is now rule #1075
+0:00:00:00 - Rule #1077: 'l Az"1952" <+' accepted as 'lAz"1952"<+'
+0:00:00:00 - Oldest still in use is now rule #1076
+0:00:00:00 - Rule #1078: 'l Az"1951" <+' accepted as 'lAz"1951"<+'
+0:00:00:00 - Oldest still in use is now rule #1077
+0:00:00:00 - Rule #1079: 'l Az"1950" <+' accepted as 'lAz"1950"<+'
+0:00:00:00 - Oldest still in use is now rule #1078
+0:00:00:00 - Rule #1080: 'l Az"1949" <+' accepted as 'lAz"1949"<+'
+0:00:00:00 - Oldest still in use is now rule #1079
+0:00:00:00 - Rule #1081: 'l Az"1948" <+' accepted as 'lAz"1948"<+'
+0:00:00:00 - Oldest still in use is now rule #1080
+0:00:00:00 - Rule #1082: 'l Az"1947" <+' accepted as 'lAz"1947"<+'
+0:00:00:00 - Oldest still in use is now rule #1081
+0:00:00:00 - Rule #1083: 'l Az"1946" <+' accepted as 'lAz"1946"<+'
+0:00:00:00 - Oldest still in use is now rule #1082
+0:00:00:00 - Rule #1084: 'l Az"1945" <+' accepted as 'lAz"1945"<+'
+0:00:00:00 - Oldest still in use is now rule #1083
+0:00:00:00 - Rule #1085: 'l Az"1944" <+' accepted as 'lAz"1944"<+'
+0:00:00:00 - Oldest still in use is now rule #1084
+0:00:00:00 - Rule #1086: 'l Az"1943" <+' accepted as 'lAz"1943"<+'
+0:00:00:00 - Oldest still in use is now rule #1085
+0:00:00:00 - Rule #1087: 'l Az"1942" <+' accepted as 'lAz"1942"<+'
+0:00:00:00 - Oldest still in use is now rule #1086
+0:00:00:00 - Rule #1088: 'l Az"1941" <+' accepted as 'lAz"1941"<+'
+0:00:00:00 - Oldest still in use is now rule #1087
+0:00:00:00 - Rule #1089: 'l Az"1940" <+' accepted as 'lAz"1940"<+'
+0:00:00:00 - Oldest still in use is now rule #1088
+0:00:00:00 - Rule #1090: 'l Az"1939" <+' accepted as 'lAz"1939"<+'
+0:00:00:00 - Oldest still in use is now rule #1089
+0:00:00:00 - Rule #1091: 'l Az"1938" <+' accepted as 'lAz"1938"<+'
+0:00:00:00 - Oldest still in use is now rule #1090
+0:00:00:00 - Rule #1092: 'l Az"1937" <+' accepted as 'lAz"1937"<+'
+0:00:00:00 - Oldest still in use is now rule #1091
+0:00:00:00 - Rule #1093: 'l Az"1936" <+' accepted as 'lAz"1936"<+'
+0:00:00:00 - Oldest still in use is now rule #1092
+0:00:00:00 - Rule #1094: 'l Az"1935" <+' accepted as 'lAz"1935"<+'
+0:00:00:00 - Oldest still in use is now rule #1093
+0:00:00:00 - Rule #1095: 'l Az"1934" <+' accepted as 'lAz"1934"<+'
+0:00:00:00 - Oldest still in use is now rule #1094
+0:00:00:00 - Rule #1096: 'l Az"1933" <+' accepted as 'lAz"1933"<+'
+0:00:00:00 - Oldest still in use is now rule #1095
+0:00:00:00 - Rule #1097: 'l Az"1932" <+' accepted as 'lAz"1932"<+'
+0:00:00:00 - Oldest still in use is now rule #1096
+0:00:00:00 - Rule #1098: 'l Az"1931" <+' accepted as 'lAz"1931"<+'
+0:00:00:00 - Oldest still in use is now rule #1097
+0:00:00:00 - Rule #1099: 'l Az"1930" <+' accepted as 'lAz"1930"<+'
+0:00:00:00 - Oldest still in use is now rule #1098
+0:00:00:00 - Rule #1100: 'l Az"1929" <+' accepted as 'lAz"1929"<+'
+0:00:00:00 - Oldest still in use is now rule #1099
+0:00:00:00 - Rule #1101: 'l Az"1928" <+' accepted as 'lAz"1928"<+'
+0:00:00:00 - Oldest still in use is now rule #1100
+0:00:00:00 - Rule #1102: 'l Az"1927" <+' accepted as 'lAz"1927"<+'
+0:00:00:00 - Oldest still in use is now rule #1101
+0:00:00:00 - Rule #1103: 'l Az"1926" <+' accepted as 'lAz"1926"<+'
+0:00:00:00 - Oldest still in use is now rule #1102
+0:00:00:00 - Rule #1104: 'l Az"1925" <+' accepted as 'lAz"1925"<+'
+0:00:00:00 - Oldest still in use is now rule #1103
+0:00:00:00 - Rule #1105: 'l Az"1924" <+' accepted as 'lAz"1924"<+'
+0:00:00:00 - Oldest still in use is now rule #1104
+0:00:00:00 - Rule #1106: 'l Az"1923" <+' accepted as 'lAz"1923"<+'
+0:00:00:00 - Oldest still in use is now rule #1105
+0:00:00:00 - Rule #1107: 'l Az"1922" <+' accepted as 'lAz"1922"<+'
+0:00:00:00 - Oldest still in use is now rule #1106
+0:00:00:00 - Rule #1108: 'l Az"1921" <+' accepted as 'lAz"1921"<+'
+0:00:00:00 - Oldest still in use is now rule #1107
+0:00:00:00 - Rule #1109: 'l Az"1920" <+' accepted as 'lAz"1920"<+'
+0:00:00:00 - Oldest still in use is now rule #1108
+0:00:00:00 - Rule #1110: 'l Az"1919" <+' accepted as 'lAz"1919"<+'
+0:00:00:00 - Oldest still in use is now rule #1109
+0:00:00:00 - Rule #1111: 'l Az"1918" <+' accepted as 'lAz"1918"<+'
+0:00:00:00 - Oldest still in use is now rule #1110
+0:00:00:00 - Rule #1112: 'l Az"1917" <+' accepted as 'lAz"1917"<+'
+0:00:00:00 - Oldest still in use is now rule #1111
+0:00:00:00 - Rule #1113: 'l Az"1916" <+' accepted as 'lAz"1916"<+'
+0:00:00:00 - Oldest still in use is now rule #1112
+0:00:00:00 - Rule #1114: 'l Az"1915" <+' accepted as 'lAz"1915"<+'
+0:00:00:00 - Oldest still in use is now rule #1113
+0:00:00:00 - Rule #1115: 'l Az"1914" <+' accepted as 'lAz"1914"<+'
+0:00:00:00 - Oldest still in use is now rule #1114
+0:00:00:00 - Rule #1116: 'l Az"1913" <+' accepted as 'lAz"1913"<+'
+0:00:00:00 - Oldest still in use is now rule #1115
+0:00:00:00 - Rule #1117: 'l Az"1912" <+' accepted as 'lAz"1912"<+'
+0:00:00:00 - Oldest still in use is now rule #1116
+0:00:00:00 - Rule #1118: 'l Az"1911" <+' accepted as 'lAz"1911"<+'
+0:00:00:00 - Oldest still in use is now rule #1117
+0:00:00:00 - Rule #1119: 'l Az"1910" <+' accepted as 'lAz"1910"<+'
+0:00:00:00 - Oldest still in use is now rule #1118
+0:00:00:00 - Rule #1120: 'l Az"1909" <+' accepted as 'lAz"1909"<+'
+0:00:00:00 - Oldest still in use is now rule #1119
+0:00:00:00 - Rule #1121: 'l Az"1908" <+' accepted as 'lAz"1908"<+'
+0:00:00:00 - Oldest still in use is now rule #1120
+0:00:00:00 - Rule #1122: 'l Az"1907" <+' accepted as 'lAz"1907"<+'
+0:00:00:00 - Oldest still in use is now rule #1121
+0:00:00:00 - Rule #1123: 'l Az"1906" <+' accepted as 'lAz"1906"<+'
+0:00:00:00 - Oldest still in use is now rule #1122
+0:00:00:00 - Rule #1124: 'l Az"1905" <+' accepted as 'lAz"1905"<+'
+0:00:00:00 - Oldest still in use is now rule #1123
+0:00:00:00 - Rule #1125: 'l Az"1904" <+' accepted as 'lAz"1904"<+'
+0:00:00:00 - Oldest still in use is now rule #1124
+0:00:00:00 - Rule #1126: 'l Az"1903" <+' accepted as 'lAz"1903"<+'
+0:00:00:00 - Oldest still in use is now rule #1125
+0:00:00:00 - Rule #1127: 'l Az"1902" <+' accepted as 'lAz"1902"<+'
+0:00:00:00 - Oldest still in use is now rule #1126
+0:00:00:00 - Rule #1128: 'l Az"1901" <+' accepted as 'lAz"1901"<+'
+0:00:00:00 - Oldest still in use is now rule #1127
+0:00:00:00 - Rule #1129: 'l Az"1900" <+' accepted as 'lAz"1900"<+'
+0:00:00:00 - Oldest still in use is now rule #1128
+0:00:00:00 - Processing the remaining buffered candidate passwords, if any
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: Wordlist
+0:00:00:00 - Wordlist file: ../run/password.lst
+0:00:00:00 - memory mapping wordlist (26325 bytes)
+0:00:00:00 - 57 preprocessed word mangling rules
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - Rule #2: '-c >3 !?X l Q' accepted as '>3!?XlQ'
+0:00:00:00 - Rule #3: '-c (?a >2 !?X c Q' accepted as '(?a>2!?XcQ'
+0:00:00:00 - Rule #4: '<* >2 !?A l p' accepted as '<*>2!?Alp'
+0:00:00:00 - Rule #5: '<* >2 !?A l $1' accepted as '<*>2!?Al$1'
+0:00:00:00 + Cracked Koboi
+0:00:00:00 Session completed
